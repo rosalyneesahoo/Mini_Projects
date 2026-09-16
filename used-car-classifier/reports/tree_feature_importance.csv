@@ -1,0 +1,11 @@
+,Importance
+numeric__Kilometers_Driven,0.4398219167732481
+categorical__Service_History_Poor,0.11861351422061665
+categorical__Accident_History_No,0.10813961900059173
+numeric__Engine_CC,0.06979619575176525
+numeric__Mileage,0.061932075948307914
+categorical__Service_History_Good,0.05721422735290445
+numeric__Age,0.05267169817861592
+numeric__Present_Price,0.05027483239693723
+categorical__Fuel_Type_Diesel,0.023429613264958814
+categorical__Service_History_Average,0.009268704831170507
