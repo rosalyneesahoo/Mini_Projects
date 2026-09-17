@@ -1,0 +1,21 @@
+{
+  "applicant": {
+    "age": 34,
+    "annual_income": 78000,
+    "credit_score": 735,
+    "loan_amount": 24000,
+    "loan_term_months": 36,
+    "employment_years": 8,
+    "debt_to_income": 0.22,
+    "existing_loans": 1,
+    "savings_balance": 28000,
+    "home_ownership": "Mortgage",
+    "education": "Bachelor",
+    "marital_status": "Married",
+    "dependents": 1,
+    "purpose": "Home Improvement"
+  },
+  "prediction": 0,
+  "label": "Not approved",
+  "approval_probability": 0.331445185772127
+}
