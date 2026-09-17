@@ -1,0 +1,701 @@
+Applicant_ID,Age,Gender,Married,Education,Self_Employed,Applicant_Income,Coapplicant_Income,Loan_Amount,Loan_Term,Credit_History,Existing_Loans,Debt_to_Income_Ratio,Employment_Status,Property_Area,Loan_Eligibility
+APP0001,24,Male,No,Graduate,No,54765.0,8000.0,289176.0,360,Poor,0.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0002,51,Male,Yes,Graduate,No,24027.0,29665.0,232568.0,300,Good,0.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0003,47,Male,Yes,Not Graduate,No,30057.0,21005.0,277667.0,360,Good,3.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0004,38,Male,Yes,Not Graduate,No,90957.0,6458.0,274707.0,240,Good,1.0,0.947,Unemployed,Urban,ELIGIBLE
+APP0005,38,Male,Yes,Graduate,No,43968.0,28075.0,304510.0,360,Poor,1.0,0.95,Salaried,Urban,ELIGIBLE
+APP0006,55,Male,No,Graduate,No,32301.0,15000.0,90305.0,180,Good,1.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0007,24,Female,No,Graduate,No,61404.0,8000.0,690634.0,360,Good,0.0,0.95,Contract,Semiurban,NOT_ELIGIBLE
+APP0008,48,Female,Yes,Not Graduate,Yes,42802.0,52965.0,260888.0,240,Good,1.0,0.883,Self-Employed,Urban,NOT_ELIGIBLE
+APP0009,29,Male,Yes,Not Graduate,No,43875.0,72039.0,369995.0,360,Good,0.0,0.761,Contract,Semiurban,ELIGIBLE
+APP0010,24,Male,No,Not Graduate,No,78430.0,8000.0,144503.0,360,Poor,1.0,0.427,Self-Employed,Rural,NOT_ELIGIBLE
+APP0011,42,Female,No,Graduate,No,31491.0,0.0,223343.0,360,,0.0,0.95,Self-Employed,Urban,ELIGIBLE
+APP0012,60,Male,Yes,Graduate,No,35615.0,22618.0,202771.0,300,Good,0.0,0.95,Self-Employed,Urban,ELIGIBLE
+APP0013,50,Male,Yes,Graduate,Yes,59222.0,70024.0,566942.0,300,Good,0.0,0.95,Contract,Semiurban,ELIGIBLE
+APP0014,51,Male,No,Graduate,No,87589.0,15000.0,211368.0,240,Good,0.0,0.629,Contract,Rural,ELIGIBLE
+APP0015,49,Male,Yes,Graduate,No,99649.0,16136.0,402892.0,480,Good,1.0,0.671,Contract,Rural,ELIGIBLE
+APP0016,52,Male,No,Graduate,No,39969.0,8000.0,204913.0,360,Poor,2.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0017,41,Female,Yes,Not Graduate,No,86252.0,17243.0,225322.0,240,Good,2.0,0.687,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0018,26,Male,No,Graduate,No,37748.0,15000.0,248869.0,360,Good,0.0,0.95,Contract,Rural,NOT_ELIGIBLE
+APP0019,54,Male,Yes,Graduate,No,132147.0,8422.0,518549.0,360,Good,2.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0020,39,Female,Yes,Not Graduate,No,31916.0,19683.0,113031.0,120,Good,0.0,0.95,Contract,Semiurban,ELIGIBLE
+APP0021,41,Female,No,Graduate,No,104064.0,15000.0,148899.0,360,Good,1.0,0.429,Salaried,Rural,ELIGIBLE
+APP0022,35,Male,Yes,Not Graduate,No,40134.0,11079.0,109956.0,240,Good,,0.727,Salaried,Urban,ELIGIBLE
+APP0023,28,Male,Yes,Graduate,No,144560.0,37960.0,166133.0,240,Poor,3.0,0.332,Contract,Semiurban,ELIGIBLE
+APP0024,58,Male,No,Not Graduate,,73052.0,8000.0,189658.0,360,Good,0.0,0.495,Salaried,Rural,ELIGIBLE
+APP0025,52,Male,No,Graduate,No,33772.0,0.0,129003.0,300,Good,0.0,0.95,Salaried,Urban,ELIGIBLE
+APP0026,46,Male,Yes,Graduate,Yes,42805.0,13523.0,196841.0,360,Good,1.0,0.831,Salaried,Semiurban,NOT_ELIGIBLE
+APP0027,37,Female,Yes,Graduate,No,80022.0,19060.0,106455.0,360,Good,3.0,0.176,Contract,Semiurban,ELIGIBLE
+APP0028,53,Male,Yes,Graduate,No,91159.0,26756.0,171770.0,360,Good,1.0,0.505,Salaried,Rural,ELIGIBLE
+APP0029,42,Male,No,Graduate,No,53164.0,0.0,498195.0,360,Poor,0.0,0.95,Self-Employed,Rural,NOT_ELIGIBLE
+APP0030,38,Female,Yes,Graduate,No,56192.0,3994.0,339853.0,360,Good,0.0,0.95,Contract,Rural,NOT_ELIGIBLE
+APP0031,39,Male,Yes,Graduate,No,79150.0,12812.0,306364.0,300,Poor,1.0,0.95,Self-Employed,Urban,NOT_ELIGIBLE
+APP0032,30,Female,No,Not Graduate,No,58592.0,0.0,173028.0,360,Good,1.0,0.809,Unemployed,Rural,ELIGIBLE
+APP0033,24,Female,No,Graduate,Yes,29561.0,0.0,133950.0,360,Good,0.0,0.95,Contract,Rural,ELIGIBLE
+APP0034,43,Male,No,Graduate,No,37230.0,0.0,162065.0,480,Good,0.0,0.717,Salaried,Semiurban,NOT_ELIGIBLE
+APP0035,56,Male,No,Graduate,No,61571.0,15000.0,274252.0,240,Good,2.0,0.95,Unemployed,Semiurban,NOT_ELIGIBLE
+APP0036,23,Female,No,Not Graduate,No,98570.0,0.0,424756.0,360,Poor,0.0,0.931,Self-Employed,Urban,NOT_ELIGIBLE
+APP0037,55,Female,No,Graduate,No,119463.0,0.0,431784.0,360,Good,3.0,0.917,Salaried,Rural,ELIGIBLE
+APP0038,54,Female,No,Graduate,No,79958.0,0.0,378980.0,300,Good,2.0,0.95,Salaried,Urban,ELIGIBLE
+APP0039,32,Male,Yes,Not Graduate,Yes,63132.0,46420.0,196520.0,360,Good,1.0,0.386,Self-Employed,Urban,ELIGIBLE
+APP0040,46,Female,Yes,Graduate,No,78788.0,13670.0,283319.0,300,Poor,1.0,0.882,Salaried,Rural,NOT_ELIGIBLE
+APP0041,27,Male,Yes,Not Graduate,No,39937.0,21120.0,239978.0,240,Good,0.0,0.95,Self-Employed,Rural,ELIGIBLE
+APP0042,51,Male,No,Graduate,No,51100.0,15000.0,254225.0,360,Good,2.0,0.909,Salaried,Rural,ELIGIBLE
+APP0043,49,Male,Yes,Graduate,Yes,37031.0,60659.0,744424.0,360,Good,1.0,0.95,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0044,35,Female,Yes,Graduate,No,30203.0,18099.0,120185.0,120,Poor,2.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0045,23,Male,Yes,Not Graduate,No,64550.0,41028.0,250171.0,180,Good,1.0,0.95,Contract,Semiurban,NOT_ELIGIBLE
+APP0046,59,Male,Yes,Graduate,No,60122.0,49000.0,500911.0,240,Good,0.0,0.95,Salaried,Urban,ELIGIBLE
+APP0047,38,Female,Yes,Graduate,No,76509.0,21107.0,138540.0,360,Poor,1.0,0.434,Salaried,Rural,NOT_ELIGIBLE
+APP0048,56,Male,No,Graduate,No,71484.0,8000.0,205571.0,360,Good,1.0,0.577,Salaried,Semiurban,ELIGIBLE
+APP0049,48,Male,No,Graduate,No,61794.0,8000.0,217207.0,360,Good,0.0,0.842,Salaried,Semiurban,ELIGIBLE
+APP0050,52,Male,Yes,Graduate,No,71845.0,18630.0,251542.0,180,Good,1.0,0.95,Self-Employed,Urban,ELIGIBLE
+APP0051,51,Male,Yes,Graduate,Yes,53885.0,38333.0,130156.0,360,Good,1.0,0.367,Self-Employed,Semiurban,ELIGIBLE
+APP0052,28,Female,Yes,Graduate,No,67056.0,25564.0,372608.0,360,Good,1.0,0.95,Salaried,Rural,ELIGIBLE
+APP0053,35,Female,No,Graduate,No,38814.0,15000.0,385526.0,360,Good,2.0,0.95,Contract,Semiurban,NOT_ELIGIBLE
+APP0054,39,Male,No,Graduate,No,65680.0,0.0,357384.0,300,Good,3.0,0.95,Salaried,Urban,ELIGIBLE
+APP0055,40,Female,Yes,Graduate,No,75806.0,11730.0,184382.0,240,Poor,4.0,0.819,Salaried,Urban,NOT_ELIGIBLE
+APP0056,22,Female,No,Graduate,Yes,39880.0,0.0,291872.0,480,Good,2.0,0.95,Contract,Semiurban,ELIGIBLE
+APP0057,42,Male,Yes,Graduate,No,56386.0,19599.0,181827.0,360,Good,0.0,0.507,Self-Employed,Urban,ELIGIBLE
+APP0058,27,Female,Yes,Graduate,No,40772.0,13296.0,238685.0,180,Poor,1.0,0.95,Self-Employed,Rural,NOT_ELIGIBLE
+APP0059,50,Male,No,Graduate,No,42718.0,0.0,787178.0,360,Good,3.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0060,48,Female,Yes,Graduate,No,32052.0,26423.0,293161.0,180,Good,1.0,0.95,Salaried,Urban,ELIGIBLE
+APP0061,57,Male,Yes,Graduate,No,100978.0,32035.0,158345.0,180,Good,1.0,0.468,Self-Employed,Rural,ELIGIBLE
+APP0062,50,Male,Yes,Graduate,No,91731.0,20112.0,305317.0,360,Good,1.0,0.717,Salaried,Urban,ELIGIBLE
+APP0063,35,Male,Yes,Not Graduate,Yes,71186.0,17884.0,146339.0,360,Good,2.0,0.459,Salaried,Urban,ELIGIBLE
+APP0064,59,Female,No,Graduate,Yes,141739.0,8000.0,157475.0,360,Good,0.0,0.226,Unemployed,Semiurban,ELIGIBLE
+APP0065,37,Male,No,Not Graduate,No,50224.0,8000.0,169873.0,480,Poor,0.0,0.554,Self-Employed,Urban,NOT_ELIGIBLE
+APP0066,34,Male,Yes,Graduate,No,235705.0,20778.0,226223.0,360,Good,2.0,0.2,Salaried,Semiurban,ELIGIBLE
+APP0067,57,Male,Yes,Not Graduate,No,49310.0,26668.0,439016.0,180,Good,0.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0068,35,Female,No,Graduate,No,62167.0,0.0,369600.0,360,Good,1.0,0.95,Contract,Rural,NOT_ELIGIBLE
+APP0069,24,Male,Yes,Graduate,No,45440.0,23265.0,359900.0,360,Good,1.0,0.95,Salaried,Urban,ELIGIBLE
+APP0070,39,Female,No,Graduate,No,65762.0,0.0,,360,Good,1.0,0.513,Salaried,Semiurban,ELIGIBLE
+APP0071,52,Male,No,Not Graduate,No,82140.0,0.0,215931.0,480,Good,0.0,0.373,Salaried,Urban,ELIGIBLE
+APP0072,28,Male,Yes,Graduate,No,52073.0,130000.0,319051.0,360,Poor,0.0,0.414,Contract,Semiurban,ELIGIBLE
+APP0073,39,Male,No,Graduate,No,129045.0,0.0,207099.0,180,Good,2.0,0.759,Self-Employed,Urban,ELIGIBLE
+APP0074,26,Male,Yes,Graduate,No,61690.0,12987.0,244979.0,240,Good,,,Salaried,Semiurban,ELIGIBLE
+APP0075,48,Male,Yes,Not Graduate,No,62625.0,32306.0,346070.0,360,Good,2.0,0.839,Salaried,Urban,NOT_ELIGIBLE
+APP0076,40,Female,Yes,Graduate,No,35553.0,13582.0,236839.0,480,Good,3.0,0.95,Self-Employed,Rural,NOT_ELIGIBLE
+APP0077,34,Male,Yes,Graduate,No,67236.0,9125.0,312092.0,180,,1.0,0.95,Self-Employed,Rural,ELIGIBLE
+APP0078,30,Female,No,Graduate,No,51573.0,0.0,601423.0,180,Good,2.0,0.95,Self-Employed,Urban,NOT_ELIGIBLE
+APP0079,43,Male,No,Not Graduate,No,41074.0,0.0,,360,Good,1.0,0.95,Salaried,Rural,ELIGIBLE
+APP0080,47,Female,No,Graduate,No,37888.0,0.0,493179.0,180,Good,0.0,0.95,Contract,Urban,ELIGIBLE
+APP0081,58,Female,No,Graduate,No,198300.0,8000.0,366239.0,180,Good,1.0,0.884,Unemployed,Semiurban,ELIGIBLE
+APP0082,38,Female,Yes,Not Graduate,No,48466.0,22148.0,138451.0,360,Poor,2.0,0.495,Self-Employed,Urban,NOT_ELIGIBLE
+APP0083,27,Female,Yes,Graduate,No,27330.0,16873.0,164970.0,360,Good,1.0,0.936,Salaried,Urban,ELIGIBLE
+APP0084,54,Female,No,Graduate,Yes,39338.0,8000.0,187666.0,360,Good,2.0,0.851,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0085,46,Male,No,Graduate,No,53655.0,15000.0,185762.0,360,Good,0.0,0.551,Salaried,Semiurban,ELIGIBLE
+APP0086,49,Male,Yes,Graduate,No,71503.0,34995.0,268124.0,300,Good,0.0,0.721,Salaried,Semiurban,ELIGIBLE
+APP0087,24,Male,Yes,Graduate,No,71782.0,10192.0,,480,Good,0.0,0.815,Salaried,Semiurban,ELIGIBLE
+APP0088,33,Male,Yes,Graduate,No,76105.0,63996.0,511458.0,300,Good,1.0,0.95,Contract,Urban,ELIGIBLE
+APP0089,51,Female,Yes,Not Graduate,Yes,40358.0,7212.0,324639.0,300,Good,1.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0090,54,,No,Not Graduate,No,64764.0,8000.0,226074.0,360,Good,0.0,0.778,Contract,Semiurban,ELIGIBLE
+APP0091,38,Female,Yes,Graduate,No,36119.0,28856.0,103060.0,360,Good,0.0,0.312,Salaried,Semiurban,ELIGIBLE
+APP0092,53,Male,No,Graduate,No,40850.0,15000.0,289650.0,360,Poor,0.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0093,54,Female,No,Graduate,No,35404.0,15000.0,283485.0,240,Good,1.0,0.95,Salaried,Urban,ELIGIBLE
+APP0094,36,Male,No,Not Graduate,No,31091.0,0.0,305697.0,480,Good,0.0,0.95,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0095,56,Male,Yes,Graduate,No,91666.0,22252.0,769534.0,360,Good,0.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0096,32,Female,Yes,Graduate,No,76544.0,11290.0,507896.0,360,Good,1.0,0.95,Salaried,Rural,ELIGIBLE
+APP0097,30,Female,No,Graduate,No,87894.0,0.0,408144.0,480,Poor,1.0,0.755,Salaried,Semiurban,ELIGIBLE
+APP0098,48,Male,No,Graduate,No,56048.0,0.0,176442.0,300,Good,1.0,0.886,Salaried,Semiurban,ELIGIBLE
+APP0099,46,Male,Yes,Graduate,No,79854.0,9582.0,218886.0,360,Good,2.0,0.637,Self-Employed,Semiurban,ELIGIBLE
+APP0100,26,Male,No,Not Graduate,No,23616.0,0.0,267539.0,360,Poor,2.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0101,54,Male,Yes,Graduate,No,83231.0,10601.0,192981.0,360,Poor,2.0,0.403,Salaried,Urban,ELIGIBLE
+APP0102,28,Female,No,Not Graduate,No,59880.0,0.0,356029.0,360,Poor,2.0,0.95,Unemployed,Urban,NOT_ELIGIBLE
+APP0103,53,Female,Yes,Graduate,No,74317.0,9439.0,332322.0,360,Good,2.0,0.87,Salaried,Rural,ELIGIBLE
+APP0104,21,Male,Yes,Not Graduate,No,66006.0,26674.0,166069.0,180,Good,1.0,0.767,Salaried,Urban,ELIGIBLE
+APP0105,52,Male,Yes,Not Graduate,No,34245.0,16013.0,497334.0,240,Good,2.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0106,52,Male,Yes,Not Graduate,No,26797.0,54891.0,294094.0,480,Good,0.0,0.679,Salaried,Semiurban,NOT_ELIGIBLE
+APP0107,52,Female,Yes,Graduate,Yes,39078.0,27152.0,122099.0,480,Good,3.0,0.356,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0108,47,Male,Yes,Graduate,No,72132.0,49122.0,273184.0,480,Good,1.0,0.439,Salaried,Rural,ELIGIBLE
+APP0109,39,Female,Yes,Graduate,No,76598.0,13462.0,320464.0,120,Good,0.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0110,49,Male,No,Graduate,Yes,28523.0,0.0,446630.0,300,Good,2.0,0.95,Self-Employed,Urban,NOT_ELIGIBLE
+APP0111,32,Male,Yes,Graduate,No,34343.0,11627.0,238126.0,360,Good,2.0,0.95,Salaried,Rural,ELIGIBLE
+APP0112,52,Male,No,Not Graduate,No,38868.0,0.0,416631.0,360,Good,0.0,0.95,Unemployed,Semiurban,NOT_ELIGIBLE
+APP0113,43,Female,No,Not Graduate,No,46332.0,0.0,306316.0,180,Good,2.0,0.95,Unemployed,Urban,ELIGIBLE
+APP0114,39,Male,Yes,Graduate,No,28604.0,13725.0,148943.0,360,Good,2.0,0.798,Salaried,Semiurban,ELIGIBLE
+APP0115,41,Male,Yes,Graduate,No,27792.0,9984.0,141955.0,240,Good,1.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0116,43,Female,No,Not Graduate,No,37072.0,0.0,479919.0,360,Good,0.0,0.95,Salaried,Urban,ELIGIBLE
+APP0117,22,Male,No,Not Graduate,Yes,57325.0,15000.0,497135.0,240,Good,0.0,0.95,Salaried,Rural,ELIGIBLE
+APP0118,26,Female,Yes,Graduate,Yes,31207.0,11072.0,326943.0,180,Good,3.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0119,30,Male,No,Graduate,No,52026.0,0.0,574057.0,180,Good,1.0,0.95,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0120,25,Male,Yes,Not Graduate,No,91418.0,7784.0,464965.0,480,Good,1.0,0.765,Salaried,Urban,ELIGIBLE
+APP0121,38,Male,Yes,Graduate,Yes,29444.0,9041.0,388748.0,360,Good,1.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0122,47,Male,No,Graduate,No,49811.0,0.0,180794.0,480,Good,3.0,0.634,Salaried,Semiurban,ELIGIBLE
+APP0123,47,Male,Yes,Not Graduate,No,89947.0,14546.0,642827.0,360,Good,2.0,0.95,Unemployed,Semiurban,NOT_ELIGIBLE
+APP0124,39,Male,No,Not Graduate,No,44996.0,0.0,362206.0,360,Poor,2.0,0.95,Unemployed,Semiurban,NOT_ELIGIBLE
+APP0125,55,Male,Yes,Not Graduate,No,41761.0,33400.0,232662.0,300,Good,1.0,0.881,Salaried,Rural,NOT_ELIGIBLE
+APP0126,43,Male,No,Not Graduate,No,96141.0,0.0,203165.0,360,Good,0.0,0.484,Self-Employed,Urban,ELIGIBLE
+APP0127,24,Male,Yes,Graduate,No,47482.0,8179.0,316729.0,300,Poor,1.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0128,51,Male,Yes,Graduate,No,93456.0,18932.0,125547.0,360,Poor,1.0,0.232,Self-Employed,Rural,NOT_ELIGIBLE
+APP0129,43,Male,Yes,Graduate,Yes,67575.0,7684.0,391753.0,360,Good,0.0,0.95,Self-Employed,Rural,ELIGIBLE
+APP0130,46,Male,Yes,Graduate,No,46654.0,107894.0,177164.0,360,Good,1.0,0.279,Contract,Rural,ELIGIBLE
+APP0131,43,Male,No,Graduate,Yes,69240.0,8000.0,334515.0,300,Poor,0.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0132,43,Male,Yes,Graduate,No,64145.0,11133.0,217982.0,360,Good,0.0,0.682,Salaried,Urban,ELIGIBLE
+APP0133,24,Male,Yes,Graduate,Yes,89780.0,11186.0,246625.0,240,Good,3.0,0.865,Unemployed,Semiurban,NOT_ELIGIBLE
+APP0134,43,Male,Yes,Not Graduate,No,42272.0,8316.0,194703.0,120,Good,0.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0135,52,Male,Yes,Graduate,Yes,56099.0,52997.0,259148.0,360,Poor,0.0,0.6,Salaried,Semiurban,ELIGIBLE
+APP0136,33,Male,No,Graduate,No,53400.0,0.0,693459.0,360,Good,2.0,0.95,Contract,Urban,NOT_ELIGIBLE
+APP0137,45,Male,Yes,Graduate,No,,16148.0,544364.0,360,Good,2.0,0.95,Contract,Rural,NOT_ELIGIBLE
+APP0138,22,,No,Graduate,No,33624.0,0.0,331935.0,180,Good,0.0,0.95,,Urban,ELIGIBLE
+APP0139,34,Male,Yes,Not Graduate,No,89611.0,5140.0,276621.0,480,Good,1.0,0.515,Contract,Urban,ELIGIBLE
+APP0140,38,Male,No,Graduate,No,68798.0,15000.0,419896.0,480,Good,,0.846,Self-Employed,Urban,NOT_ELIGIBLE
+APP0141,60,Female,Yes,Graduate,No,29230.0,17911.0,481630.0,360,Poor,1.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0142,29,Male,Yes,Not Graduate,No,98229.0,14407.0,188007.0,360,Good,2.0,0.42,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0143,32,Male,No,Graduate,No,160725.0,0.0,269783.0,300,Poor,0.0,0.466,Contract,Semiurban,ELIGIBLE
+APP0144,37,Male,No,Graduate,Yes,88962.0,0.0,116775.0,360,Poor,2.0,0.284,Contract,Rural,ELIGIBLE
+APP0145,60,Female,No,Graduate,No,109102.0,8000.0,480044.0,360,Good,1.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0146,55,Male,Yes,Graduate,No,57301.0,17914.0,754459.0,360,Good,0.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0147,22,Male,Yes,Graduate,Yes,24774.0,10751.0,290973.0,360,Good,1.0,0.95,Contract,Rural,NOT_ELIGIBLE
+APP0148,30,Male,No,Graduate,No,22695.0,0.0,100966.0,360,Poor,1.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0149,53,Male,Yes,Graduate,No,,22180.0,375049.0,360,Good,0.0,0.95,Salaried,Urban,ELIGIBLE
+APP0150,23,Male,No,Graduate,No,41396.0,15000.0,181422.0,360,Good,0.0,0.73,Contract,Urban,ELIGIBLE
+APP0151,55,Female,Yes,Graduate,No,35458.0,36767.0,203646.0,240,Poor,0.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0152,32,Female,Yes,Graduate,No,53368.0,8731.0,378247.0,180,Good,2.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0153,57,Female,No,Not Graduate,No,73907.0,0.0,316390.0,360,Poor,1.0,0.924,Salaried,Semiurban,NOT_ELIGIBLE
+APP0154,32,Male,No,Graduate,No,27385.0,0.0,221517.0,360,Good,0.0,0.95,Salaried,Urban,ELIGIBLE
+APP0155,38,Male,Yes,Graduate,Yes,44339.0,11073.0,204994.0,360,Good,0.0,0.916,Contract,Semiurban,ELIGIBLE
+APP0156,47,Female,Yes,Graduate,No,113530.0,35944.0,297434.0,480,Good,1.0,0.393,Salaried,Semiurban,ELIGIBLE
+APP0157,26,Male,Yes,Graduate,No,32825.0,27644.0,230038.0,360,Good,3.0,0.919,Salaried,Semiurban,NOT_ELIGIBLE
+APP0158,43,Female,Yes,Graduate,No,83498.0,44948.0,164409.0,300,Good,0.0,0.26,Salaried,Rural,ELIGIBLE
+APP0159,41,Male,Yes,Not Graduate,No,43583.0,28467.0,238688.0,360,Poor,0.0,0.865,Salaried,Rural,ELIGIBLE
+APP0160,52,Male,Yes,Not Graduate,No,71473.0,25195.0,329572.0,360,Good,3.0,0.841,Salaried,Semiurban,NOT_ELIGIBLE
+APP0161,60,Male,No,Graduate,No,93135.0,15000.0,257058.0,360,Good,3.0,0.504,Salaried,Semiurban,ELIGIBLE
+APP0162,47,Female,No,Graduate,No,78504.0,15000.0,142068.0,360,Poor,0.0,0.321,Self-Employed,Semiurban,ELIGIBLE
+APP0163,37,Male,Yes,Not Graduate,No,85092.0,22996.0,450132.0,360,Good,0.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0164,37,Male,Yes,Graduate,No,31645.0,57589.0,75201.0,360,Good,2.0,0.24,Salaried,Semiurban,ELIGIBLE
+APP0165,37,Male,Yes,Graduate,No,93868.0,23710.0,226000.0,360,Poor,1.0,0.434,Salaried,Semiurban,ELIGIBLE
+APP0166,53,Male,Yes,Graduate,No,36527.0,18051.0,207908.0,360,,1.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0167,33,Male,Yes,Graduate,No,,12762.0,300641.0,180,Good,0.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0168,27,Female,Yes,Not Graduate,No,62258.0,34744.0,366643.0,360,Good,2.0,0.85,Salaried,Urban,ELIGIBLE
+APP0169,34,Male,No,Graduate,No,69421.0,0.0,480889.0,360,Poor,0.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0170,21,Female,Yes,Not Graduate,No,64655.0,21288.0,198907.0,180,Good,0.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0171,25,Female,Yes,Graduate,No,36683.0,51480.0,371055.0,360,Good,0.0,0.95,Contract,Urban,ELIGIBLE
+APP0172,24,Male,Yes,Graduate,No,28772.0,6114.0,307595.0,360,Good,0.0,0.95,Salaried,Urban,ELIGIBLE
+APP0173,51,Male,No,Graduate,No,83601.0,15000.0,123131.0,360,Good,0.0,0.313,Contract,Urban,ELIGIBLE
+APP0174,49,Male,No,Graduate,No,60131.0,0.0,697184.0,360,Good,3.0,0.95,Contract,Rural,NOT_ELIGIBLE
+APP0175,48,Male,Yes,Graduate,No,95491.0,13715.0,140355.0,300,Good,0.0,0.358,Salaried,Rural,ELIGIBLE
+APP0176,39,Male,No,Graduate,No,53832.0,15000.0,342458.0,240,Good,3.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0177,49,Female,Yes,Graduate,No,28018.0,21074.0,,300,Good,0.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0178,27,Female,Yes,Graduate,No,87451.0,16878.0,319608.0,360,Good,1.0,0.704,Salaried,Semiurban,ELIGIBLE
+APP0179,57,Female,No,Graduate,No,46042.0,8000.0,220830.0,360,Poor,0.0,0.95,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0180,41,Male,Yes,Graduate,No,64812.0,5985.0,416494.0,360,Good,2.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0181,58,Female,Yes,Graduate,Yes,40308.0,13425.0,,360,Good,0.0,0.55,Contract,Urban,ELIGIBLE
+APP0182,27,Female,Yes,Graduate,No,121098.0,41685.0,271291.0,240,Good,2.0,0.601,Salaried,Urban,NOT_ELIGIBLE
+APP0183,40,Male,Yes,Not Graduate,No,36110.0,14618.0,213605.0,300,Good,2.0,0.95,Contract,Semiurban,NOT_ELIGIBLE
+APP0184,48,Male,No,Not Graduate,No,46776.0,0.0,202287.0,240,Poor,0.0,0.95,Contract,Urban,NOT_ELIGIBLE
+APP0185,40,Male,Yes,Graduate,No,57911.0,51534.0,343982.0,360,Good,2.0,0.759,Salaried,Semiurban,ELIGIBLE
+APP0186,38,Male,Yes,Graduate,No,32560.0,52573.0,469646.0,300,Good,0.0,0.95,Unemployed,Rural,NOT_ELIGIBLE
+APP0187,27,Male,Yes,Graduate,No,64456.0,30787.0,237467.0,360,Good,0.0,0.706,Unemployed,Urban,ELIGIBLE
+APP0188,36,Male,Yes,,No,119230.0,16366.0,407286.0,360,Good,0.0,0.714,Salaried,Semiurban,ELIGIBLE
+APP0189,30,Male,Yes,Graduate,No,43463.0,18829.0,286766.0,360,Good,2.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0190,33,Female,Yes,Graduate,No,66487.0,13044.0,182414.0,300,Poor,1.0,0.745,Salaried,Rural,NOT_ELIGIBLE
+APP0191,48,Female,No,Graduate,No,14696.0,0.0,247392.0,300,Good,3.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0192,46,Male,Yes,Graduate,No,53982.0,11158.0,242508.0,360,Good,1.0,0.821,Self-Employed,Urban,ELIGIBLE
+APP0193,45,Female,Yes,Graduate,No,47327.0,14721.0,200416.0,360,Good,0.0,0.789,Salaried,Semiurban,ELIGIBLE
+APP0194,35,Female,Yes,Graduate,No,37131.0,11229.0,343938.0,180,Good,1.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0195,59,Male,Yes,Not Graduate,No,92428.0,7962.0,313381.0,360,Good,1.0,0.769,Contract,Rural,NOT_ELIGIBLE
+APP0196,24,Male,Yes,Not Graduate,No,47028.0,25372.0,130488.0,360,Good,4.0,0.427,Salaried,Semiurban,ELIGIBLE
+APP0197,34,Male,Yes,Graduate,No,50509.0,25624.0,126730.0,360,Good,,0.32,Self-Employed,Urban,ELIGIBLE
+APP0198,25,Male,Yes,Not Graduate,No,45892.0,66457.0,343311.0,240,Good,2.0,0.95,Salaried,Rural,ELIGIBLE
+APP0199,34,Female,No,Graduate,No,21917.0,8000.0,189323.0,300,Poor,1.0,0.95,Contract,Semiurban,NOT_ELIGIBLE
+APP0200,59,Male,No,Not Graduate,No,31944.0,15000.0,323685.0,300,Good,0.0,0.95,Self-Employed,Urban,ELIGIBLE
+APP0201,35,Male,Yes,Not Graduate,No,87240.0,26959.0,407335.0,300,Poor,0.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0202,57,Male,Yes,Graduate,No,19977.0,18654.0,152130.0,360,Good,,0.924,Self-Employed,Rural,NOT_ELIGIBLE
+APP0203,40,Male,Yes,Not Graduate,No,38073.0,35690.0,142202.0,360,Good,3.0,0.424,Salaried,Semiurban,NOT_ELIGIBLE
+APP0204,48,Female,Yes,Not Graduate,No,45398.0,36414.0,625478.0,360,Poor,0.0,0.95,Contract,Urban,NOT_ELIGIBLE
+APP0205,39,Male,Yes,Not Graduate,No,127011.0,27217.0,331472.0,480,Good,1.0,0.411,Self-Employed,Semiurban,ELIGIBLE
+APP0206,31,Male,No,Not Graduate,No,79540.0,8000.0,228962.0,240,Good,1.0,0.95,Salaried,Urban,ELIGIBLE
+APP0207,51,Male,No,Graduate,No,42093.0,8000.0,178841.0,180,Good,2.0,0.95,Self-Employed,Semiurban,ELIGIBLE
+APP0208,59,Male,No,Graduate,No,102873.0,15000.0,219155.0,360,Good,0.0,0.356,Contract,Semiurban,ELIGIBLE
+APP0209,31,Male,Yes,Not Graduate,Yes,38547.0,13029.0,158114.0,480,Poor,0.0,0.566,Contract,Urban,NOT_ELIGIBLE
+APP0210,52,Male,No,Graduate,No,89273.0,0.0,427873.0,360,Good,2.0,0.95,Self-Employed,Urban,ELIGIBLE
+APP0211,31,Male,Yes,Graduate,No,28648.0,10596.0,192857.0,120,Poor,1.0,0.95,Contract,Rural,NOT_ELIGIBLE
+APP0212,49,Male,Yes,Graduate,No,92065.0,29283.0,473280.0,300,Good,1.0,0.95,Salaried,Urban,ELIGIBLE
+APP0213,52,Female,Yes,Graduate,No,45258.0,47887.0,231016.0,180,Good,1.0,0.95,Contract,Rural,ELIGIBLE
+APP0214,38,Male,No,Graduate,No,33571.0,0.0,169691.0,360,Good,0.0,0.95,Contract,Semiurban,ELIGIBLE
+APP0215,50,Male,Yes,Not Graduate,No,49556.0,26451.0,228187.0,360,Poor,2.0,0.752,Salaried,Semiurban,NOT_ELIGIBLE
+APP0216,31,Male,No,Graduate,No,62832.0,15000.0,79455.0,360,Good,3.0,0.293,Salaried,Urban,ELIGIBLE
+APP0217,24,Female,Yes,Not Graduate,No,43374.0,18045.0,264230.0,360,Poor,1.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0218,24,Male,No,Not Graduate,Yes,71753.0,8000.0,258045.0,300,Good,0.0,0.912,Salaried,Urban,ELIGIBLE
+APP0219,38,Male,Yes,Graduate,No,41575.0,32534.0,415992.0,360,Good,0.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0220,57,Male,Yes,Graduate,No,74078.0,14152.0,113223.0,120,Good,0.0,0.924,Salaried,Rural,NOT_ELIGIBLE
+APP0221,26,Male,No,Graduate,No,,8000.0,489060.0,360,Good,3.0,0.95,Self-Employed,Rural,ELIGIBLE
+APP0222,39,Female,Yes,Not Graduate,No,53415.0,18752.0,415166.0,360,Poor,2.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0223,49,Male,Yes,Not Graduate,No,44499.0,14423.0,510694.0,360,Good,1.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0224,29,Female,Yes,Graduate,No,59150.0,9741.0,273003.0,300,Good,0.0,0.95,Self-Employed,Urban,ELIGIBLE
+APP0225,49,Female,Yes,Graduate,No,71626.0,25936.0,455529.0,360,Good,2.0,0.95,Salaried,Rural,ELIGIBLE
+APP0226,33,Male,Yes,Graduate,No,147968.0,39367.0,138185.0,360,Good,1.0,0.19,Salaried,Urban,ELIGIBLE
+APP0227,53,Female,Yes,Graduate,No,86337.0,26277.0,394276.0,240,Good,4.0,0.95,Contract,Urban,NOT_ELIGIBLE
+APP0228,44,Male,Yes,Not Graduate,No,87866.0,94281.0,193375.0,240,Poor,1.0,0.38,Unemployed,Semiurban,NOT_ELIGIBLE
+APP0229,42,Female,No,Not Graduate,No,242213.0,0.0,126737.0,360,Good,,0.169,Self-Employed,Semiurban,ELIGIBLE
+APP0230,28,Male,Yes,Graduate,No,70456.0,18014.0,163237.0,300,Good,2.0,0.52,Salaried,Urban,ELIGIBLE
+APP0231,39,Male,Yes,Not Graduate,No,69405.0,17891.0,280744.0,180,Good,2.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0232,55,Male,Yes,Graduate,No,77112.0,29855.0,188505.0,240,Good,0.0,0.666,Unemployed,Urban,ELIGIBLE
+APP0233,21,Male,Yes,Not Graduate,No,33887.0,12760.0,335394.0,240,Good,0.0,0.95,Self-Employed,Urban,ELIGIBLE
+APP0234,51,Male,No,Graduate,No,44445.0,0.0,117547.0,360,Good,1.0,0.562,Contract,Urban,ELIGIBLE
+APP0235,40,Female,No,Graduate,No,43137.0,0.0,100865.0,360,Good,0.0,0.505,Self-Employed,Urban,ELIGIBLE
+APP0236,49,Male,No,Not Graduate,No,75053.0,0.0,541063.0,240,Good,0.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0237,47,Male,Yes,Graduate,No,50589.0,34383.0,432081.0,360,Poor,0.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0238,38,Male,Yes,Graduate,No,58773.0,67416.0,169208.0,300,Poor,2.0,0.269,Contract,Rural,ELIGIBLE
+APP0239,33,Male,Yes,Not Graduate,No,92695.0,24586.0,279597.0,300,Poor,0.0,0.665,Contract,Urban,NOT_ELIGIBLE
+APP0240,46,,Yes,Graduate,No,83233.0,20441.0,456758.0,240,Good,0.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0241,26,Female,Yes,Graduate,No,50892.0,58657.0,342409.0,360,Good,0.0,0.725,Self-Employed,Rural,NOT_ELIGIBLE
+APP0242,44,Male,No,Graduate,No,39874.0,0.0,,480,Good,1.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0243,24,Male,Yes,Graduate,No,94847.0,17857.0,473648.0,360,Good,1.0,0.95,Unemployed,Rural,ELIGIBLE
+APP0244,46,Male,Yes,Graduate,No,79742.0,22074.0,197166.0,180,Good,2.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0245,46,Male,Yes,Graduate,No,25440.0,24979.0,284222.0,300,Good,0.0,0.95,Contract,Semiurban,ELIGIBLE
+APP0246,24,Male,Yes,Not Graduate,No,47324.0,27833.0,277611.0,240,Poor,2.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0247,51,Female,Yes,Graduate,No,59548.0,9109.0,245639.0,360,Poor,2.0,0.95,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0248,37,Male,Yes,Graduate,Yes,79932.0,8072.0,232219.0,180,Good,1.0,0.95,Self-Employed,Semiurban,ELIGIBLE
+APP0249,52,Female,No,Not Graduate,No,85130.0,15000.0,289967.0,480,Good,0.0,0.657,Salaried,Rural,ELIGIBLE
+APP0250,22,Male,Yes,Graduate,No,63030.0,11751.0,284663.0,360,Good,0.0,0.871,Contract,Rural,ELIGIBLE
+APP0251,28,Male,Yes,Not Graduate,No,72839.0,14477.0,169278.0,360,Good,2.0,0.368,Contract,Semiurban,ELIGIBLE
+APP0252,40,Female,Yes,Graduate,No,56720.0,33235.0,411435.0,360,Poor,0.0,0.95,Contract,Rural,NOT_ELIGIBLE
+APP0253,28,Female,No,Not Graduate,No,39801.0,0.0,175234.0,120,Poor,2.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0254,34,Female,Yes,Graduate,No,48518.0,24996.0,252153.0,360,Good,0.0,0.859,Contract,Semiurban,ELIGIBLE
+APP0255,47,Female,No,Graduate,No,55504.0,0.0,242998.0,180,Good,3.0,0.95,Self-Employed,Urban,NOT_ELIGIBLE
+APP0256,26,Female,No,Not Graduate,No,54092.0,0.0,332513.0,360,Good,0.0,0.95,Self-Employed,Urban,NOT_ELIGIBLE
+APP0257,48,Female,Yes,Graduate,No,22248.0,32226.0,101253.0,360,Good,1.0,0.433,Salaried,Urban,ELIGIBLE
+APP0258,25,Male,No,Graduate,No,45447.0,0.0,429416.0,180,Good,1.0,0.95,Self-Employed,Urban,NOT_ELIGIBLE
+APP0259,28,Female,Yes,Graduate,No,56504.0,13737.0,202317.0,360,Good,5.0,0.677,Salaried,Rural,NOT_ELIGIBLE
+APP0260,44,Male,No,Graduate,No,48052.0,8000.0,502890.0,120,Good,1.0,0.95,Salaried,Urban,ELIGIBLE
+APP0261,52,Male,Yes,Graduate,,48855.0,91863.0,222576.0,240,Good,2.0,0.626,Salaried,Semiurban,ELIGIBLE
+APP0262,27,Male,No,Graduate,No,69517.0,0.0,273512.0,360,Good,0.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0263,32,Female,Yes,Graduate,No,32767.0,14020.0,701630.0,360,Good,1.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0264,58,Female,Yes,Graduate,Yes,25176.0,19650.0,245100.0,360,Good,1.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0265,60,Male,Yes,Graduate,,46535.0,23358.0,507470.0,360,Poor,2.0,0.95,Contract,Semiurban,NOT_ELIGIBLE
+APP0266,44,Female,No,Graduate,No,79369.0,15000.0,285297.0,360,Good,0.0,0.717,Self-Employed,Semiurban,ELIGIBLE
+APP0267,38,Female,Yes,Graduate,No,123638.0,21556.0,341788.0,300,Good,2.0,0.636,Salaried,Semiurban,NOT_ELIGIBLE
+APP0268,34,Male,Yes,Graduate,No,80058.0,8609.0,289562.0,240,Good,2.0,0.95,Contract,Urban,ELIGIBLE
+APP0269,45,Male,No,Graduate,Yes,27182.0,0.0,420632.0,480,Good,3.0,0.95,Contract,Semiurban,NOT_ELIGIBLE
+APP0270,44,Male,No,Graduate,No,49195.0,0.0,201489.0,180,Good,1.0,0.95,,Urban,ELIGIBLE
+APP0271,32,Female,Yes,Graduate,No,62210.0,19759.0,174591.0,360,Good,3.0,0.454,Contract,Semiurban,ELIGIBLE
+APP0272,21,Male,Yes,Graduate,No,59894.0,15226.0,206082.0,300,Good,4.0,0.72,Unemployed,Semiurban,NOT_ELIGIBLE
+APP0273,27,Female,Yes,Graduate,No,71250.0,19609.0,293727.0,300,Poor,0.0,0.95,Self-Employed,Urban,ELIGIBLE
+APP0274,59,Male,No,Graduate,No,35416.0,0.0,251841.0,360,Good,4.0,0.95,Unemployed,Rural,NOT_ELIGIBLE
+APP0275,37,Female,Yes,Graduate,No,56742.0,39219.0,393752.0,360,Good,1.0,0.95,Unemployed,Urban,ELIGIBLE
+APP0276,40,Male,No,Graduate,No,67295.0,0.0,523774.0,360,Poor,0.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0277,39,Female,Yes,Not Graduate,No,81749.0,28516.0,175280.0,360,Good,3.0,0.432,Contract,Rural,ELIGIBLE
+APP0278,52,Male,Yes,Graduate,Yes,37360.0,15472.0,196860.0,300,Good,1.0,0.95,Contract,Urban,NOT_ELIGIBLE
+APP0279,23,Male,Yes,Graduate,No,46603.0,31910.0,140526.0,360,Poor,0.0,0.446,Contract,Urban,ELIGIBLE
+APP0280,24,Female,Yes,Graduate,No,15022.0,28086.0,742014.0,120,Good,1.0,0.95,Contract,Urban,NOT_ELIGIBLE
+APP0281,32,Female,No,Graduate,Yes,40814.0,0.0,324093.0,360,Good,2.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0282,40,Female,Yes,Graduate,No,42760.0,34981.0,352516.0,300,Good,2.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0283,47,Male,Yes,Graduate,No,33715.0,32257.0,147155.0,360,Good,2.0,0.434,Self-Employed,Urban,ELIGIBLE
+APP0284,40,Male,No,Graduate,No,59551.0,0.0,279843.0,240,Poor,0.0,0.95,Contract,Semiurban,NOT_ELIGIBLE
+APP0285,38,Male,No,Graduate,No,53543.0,15000.0,357533.0,360,Good,2.0,0.95,Contract,Urban,ELIGIBLE
+APP0286,58,Male,No,Not Graduate,No,18595.0,8000.0,248009.0,360,Good,1.0,0.95,Contract,Semiurban,NOT_ELIGIBLE
+APP0287,27,Male,Yes,Not Graduate,No,60994.0,14400.0,469247.0,360,Good,1.0,0.95,Contract,Semiurban,ELIGIBLE
+APP0288,43,Female,Yes,Graduate,No,35224.0,14623.0,849348.0,180,Good,2.0,0.95,Unemployed,Urban,NOT_ELIGIBLE
+APP0289,42,Female,No,Graduate,No,69440.0,8000.0,177718.0,480,Good,0.0,0.418,Salaried,Rural,ELIGIBLE
+APP0290,39,Female,Yes,Not Graduate,No,29727.0,28817.0,171432.0,300,Good,1.0,0.905,Unemployed,Urban,ELIGIBLE
+APP0291,53,Female,Yes,Graduate,Yes,55798.0,12876.0,183730.0,300,Poor,2.0,0.76,Salaried,Semiurban,ELIGIBLE
+APP0292,31,Female,No,Not Graduate,No,48010.0,15000.0,605325.0,300,Good,1.0,0.95,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0293,59,Male,Yes,Graduate,No,63613.0,20696.0,461795.0,300,Poor,0.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0294,34,Male,Yes,Not Graduate,No,58393.0,5213.0,262365.0,360,Good,3.0,0.909,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0295,42,Male,No,Not Graduate,No,48660.0,0.0,284957.0,240,Good,1.0,0.95,Salaried,Rural,ELIGIBLE
+APP0296,41,Female,Yes,Graduate,,26309.0,19862.0,189208.0,300,Good,3.0,0.95,Salaried,Urban,ELIGIBLE
+APP0297,54,Male,Yes,Graduate,No,27066.0,19823.0,429234.0,360,Poor,2.0,0.95,,Rural,NOT_ELIGIBLE
+APP0298,38,Male,Yes,Graduate,No,41557.0,55223.0,233326.0,360,Good,1.0,0.659,Contract,Urban,NOT_ELIGIBLE
+APP0299,32,Male,Yes,Graduate,No,54782.0,9982.0,247139.0,360,Good,1.0,0.829,Salaried,Semiurban,ELIGIBLE
+APP0300,21,Male,Yes,Graduate,Yes,41074.0,12872.0,375031.0,360,Poor,2.0,0.95,Self-Employed,Urban,NOT_ELIGIBLE
+APP0301,35,Male,No,Not Graduate,No,74250.0,0.0,255840.0,240,Good,1.0,0.95,,Rural,NOT_ELIGIBLE
+APP0302,54,Female,No,Graduate,No,48101.0,15000.0,250136.0,360,Good,5.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0303,21,Male,Yes,Graduate,No,34609.0,17011.0,281425.0,120,Good,1.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0304,56,Male,Yes,Not Graduate,Yes,48127.0,15793.0,410165.0,300,Good,2.0,0.95,Self-Employed,Semiurban,ELIGIBLE
+APP0305,42,,No,Graduate,No,61298.0,8000.0,617146.0,180,Good,1.0,0.95,Contract,Semiurban,ELIGIBLE
+APP0306,26,Male,Yes,Graduate,No,64282.0,38492.0,370859.0,360,Good,0.0,0.821,Self-Employed,Urban,ELIGIBLE
+APP0307,33,Female,Yes,Not Graduate,No,135498.0,23142.0,411735.0,300,Poor,1.0,0.709,Contract,Semiurban,NOT_ELIGIBLE
+APP0308,43,Male,Yes,Graduate,No,39895.0,17290.0,254388.0,360,Good,0.0,0.95,Self-Employed,Semiurban,ELIGIBLE
+APP0309,33,Male,No,Graduate,No,53094.0,0.0,199347.0,300,Good,0.0,0.95,Contract,Semiurban,ELIGIBLE
+APP0310,25,Male,Yes,Graduate,No,67483.0,21719.0,383256.0,360,Poor,1.0,0.95,Unemployed,Urban,NOT_ELIGIBLE
+APP0311,47,Male,No,Not Graduate,No,54385.0,8000.0,303987.0,360,Good,1.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0312,47,Female,Yes,Graduate,No,43252.0,7210.0,141447.0,180,Good,1.0,0.95,Salaried,Urban,ELIGIBLE
+APP0313,25,Male,Yes,Graduate,Yes,26146.0,16514.0,239204.0,360,Good,1.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0314,32,Male,Yes,Graduate,No,,35930.0,269077.0,360,Good,1.0,0.817,,Urban,ELIGIBLE
+APP0315,30,Male,Yes,Graduate,Yes,32850.0,96621.0,219153.0,360,Good,1.0,0.376,Self-Employed,Urban,ELIGIBLE
+APP0316,47,Female,Yes,Not Graduate,No,24012.0,22899.0,570220.0,180,Poor,1.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0317,50,Female,Yes,Graduate,No,37540.0,13377.0,352522.0,360,Poor,1.0,0.95,Contract,Urban,NOT_ELIGIBLE
+APP0318,50,Female,Yes,Not Graduate,No,33272.0,10184.0,541267.0,300,Good,1.0,0.95,Unemployed,Semiurban,NOT_ELIGIBLE
+APP0319,58,Male,Yes,Graduate,No,72788.0,31495.0,317740.0,120,Good,0.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0320,51,Male,Yes,Graduate,No,73395.0,6987.0,291155.0,240,Poor,0.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0321,33,Male,Yes,Not Graduate,No,35640.0,31462.0,178613.0,360,Good,0.0,0.667,Salaried,Semiurban,NOT_ELIGIBLE
+APP0322,25,Male,No,Graduate,No,48542.0,0.0,281608.0,300,Poor,3.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0323,45,Female,Yes,Graduate,No,22542.0,29213.0,281760.0,360,Good,0.0,0.95,Contract,Urban,NOT_ELIGIBLE
+APP0324,57,Female,No,Not Graduate,Yes,43382.0,8000.0,145267.0,300,Good,1.0,0.845,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0325,60,Male,No,Graduate,No,66609.0,0.0,216116.0,360,Poor,2.0,0.894,,Semiurban,ELIGIBLE
+APP0326,30,Male,Yes,Graduate,No,81720.0,24585.0,239754.0,300,Good,0.0,0.608,Salaried,Semiurban,ELIGIBLE
+APP0327,30,Female,No,Not Graduate,No,39059.0,0.0,341470.0,360,Good,0.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0328,22,Male,No,Graduate,No,91124.0,0.0,349407.0,360,Poor,1.0,0.862,Salaried,Rural,NOT_ELIGIBLE
+APP0329,26,Male,No,Graduate,No,26570.0,0.0,211824.0,300,Good,1.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0330,43,Male,Yes,Graduate,Yes,30219.0,36426.0,350670.0,180,Good,1.0,0.95,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0331,42,Male,Yes,Graduate,Yes,77321.0,4567.0,256567.0,360,Good,1.0,0.757,Self-Employed,Urban,NOT_ELIGIBLE
+APP0332,35,Male,Yes,Graduate,Yes,122667.0,50438.0,70624.0,480,Good,1.0,0.142,Contract,Semiurban,ELIGIBLE
+APP0333,33,Male,Yes,Graduate,No,69699.0,57153.0,221879.0,480,Good,0.0,0.4,Salaried,Semiurban,ELIGIBLE
+APP0334,54,Male,No,Graduate,No,53945.0,8000.0,469987.0,240,Good,1.0,0.95,Contract,Semiurban,ELIGIBLE
+APP0335,39,Male,No,Graduate,No,19176.0,0.0,124901.0,360,Good,3.0,0.95,Salaried,Urban,ELIGIBLE
+APP0336,53,Male,Yes,Graduate,No,20833.0,31629.0,295563.0,300,Poor,,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0337,59,Male,No,Graduate,No,58525.0,15000.0,599272.0,240,Good,1.0,0.95,Contract,Urban,ELIGIBLE
+APP0338,33,Female,Yes,Graduate,No,46315.0,31396.0,194357.0,360,Good,2.0,0.658,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0339,29,Female,No,Graduate,No,32347.0,15000.0,280289.0,360,Good,2.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0340,59,Male,Yes,Graduate,No,56758.0,14811.0,149734.0,360,Poor,1.0,0.461,Salaried,Urban,NOT_ELIGIBLE
+APP0341,46,Male,No,Graduate,No,58125.0,0.0,611467.0,360,Good,0.0,0.95,Contract,Semiurban,ELIGIBLE
+APP0342,32,Female,No,Not Graduate,Yes,86544.0,0.0,269021.0,300,Poor,1.0,0.89,Unemployed,Urban,NOT_ELIGIBLE
+APP0343,45,Male,Yes,Graduate,No,58727.0,13900.0,286337.0,360,Good,1.0,0.936,Self-Employed,Urban,NOT_ELIGIBLE
+APP0344,41,Male,Yes,Graduate,No,99183.0,13657.0,536386.0,300,Good,0.0,0.95,Salaried,Rural,ELIGIBLE
+APP0345,57,Female,No,Not Graduate,No,55211.0,0.0,384637.0,180,Poor,0.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0346,31,Male,Yes,Graduate,No,52038.0,35419.0,183918.0,300,Poor,1.0,0.661,Salaried,Rural,ELIGIBLE
+APP0347,60,Female,Yes,Graduate,No,91671.0,11485.0,205223.0,480,Good,1.0,0.359,Salaried,Urban,ELIGIBLE
+APP0348,58,Male,No,,No,34387.0,15000.0,355085.0,360,Good,2.0,0.95,Self-Employed,Semiurban,ELIGIBLE
+APP0349,28,Male,Yes,Graduate,No,212357.0,35748.0,207517.0,180,,0.0,0.333,Contract,Rural,ELIGIBLE
+APP0350,27,Male,Yes,Graduate,No,65855.0,20774.0,101343.0,360,Good,0.0,0.236,Salaried,Urban,ELIGIBLE
+APP0351,42,Male,Yes,Not Graduate,No,66031.0,42418.0,272935.0,480,Poor,,0.475,Contract,Semiurban,NOT_ELIGIBLE
+APP0352,22,Male,Yes,Graduate,No,70766.0,18052.0,137591.0,480,Poor,0.0,0.298,Contract,Urban,ELIGIBLE
+APP0353,32,Male,No,Not Graduate,Yes,135417.0,8000.0,608261.0,360,Good,1.0,0.95,Contract,Rural,NOT_ELIGIBLE
+APP0354,38,Female,Yes,,No,80458.0,11656.0,304798.0,300,Good,2.0,0.831,Salaried,Semiurban,ELIGIBLE
+APP0355,59,Male,Yes,Graduate,Yes,25455.0,42615.0,181328.0,360,Good,1.0,,Salaried,Semiurban,ELIGIBLE
+APP0356,60,Male,Yes,Graduate,No,107878.0,13367.0,200226.0,360,Good,2.0,0.347,Salaried,Semiurban,ELIGIBLE
+APP0357,27,Female,No,Graduate,No,46698.0,15000.0,113055.0,360,Good,2.0,0.478,Salaried,Urban,ELIGIBLE
+APP0358,56,Female,Yes,Not Graduate,No,57903.0,21003.0,165182.0,360,Good,2.0,0.461,Salaried,Urban,ELIGIBLE
+APP0359,24,Male,No,Graduate,No,29764.0,0.0,456060.0,360,Good,1.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0360,50,Male,No,Graduate,No,,0.0,817333.0,180,Good,1.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0361,54,Female,No,Graduate,Yes,40232.0,15000.0,396811.0,360,Poor,1.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0362,56,Male,No,Graduate,No,57709.0,0.0,267899.0,240,Good,0.0,0.95,Contract,Urban,ELIGIBLE
+APP0363,29,Female,No,Graduate,No,47989.0,0.0,227568.0,180,Good,0.0,0.95,Contract,Semiurban,ELIGIBLE
+APP0364,56,Female,No,Graduate,Yes,138565.0,15000.0,176915.0,360,Good,1.0,0.296,Salaried,Semiurban,ELIGIBLE
+APP0365,25,Female,Yes,Graduate,Yes,142425.0,20007.0,752557.0,360,Good,1.0,0.95,Unemployed,Urban,ELIGIBLE
+APP0366,41,Male,No,Not Graduate,No,56242.0,0.0,255747.0,360,Good,,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0367,39,Male,Yes,Graduate,No,56715.0,26480.0,773010.0,360,Good,1.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0368,33,Male,Yes,Graduate,No,45974.0,17178.0,546579.0,360,Good,0.0,0.95,Contract,Semiurban,NOT_ELIGIBLE
+APP0369,21,Male,No,Graduate,No,93524.0,8000.0,121414.0,360,Good,2.0,0.371,Salaried,Rural,ELIGIBLE
+APP0370,51,Female,No,Graduate,No,46967.0,0.0,203391.0,360,Poor,1.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0371,34,Male,No,Graduate,No,44929.0,0.0,203090.0,120,Good,3.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0372,47,Male,Yes,Graduate,,87975.0,80433.0,269472.0,360,Good,2.0,0.299,Salaried,Semiurban,ELIGIBLE
+APP0373,37,Male,Yes,Graduate,Yes,42476.0,20400.0,272010.0,240,Good,0.0,0.95,Self-Employed,Semiurban,ELIGIBLE
+APP0374,35,Female,Yes,Graduate,No,54012.0,7131.0,1000000.0,180,Poor,1.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0375,56,Male,Yes,Graduate,No,25747.0,17008.0,166954.0,240,Good,1.0,0.95,,Urban,NOT_ELIGIBLE
+APP0376,24,Male,Yes,Graduate,No,77119.0,56627.0,312528.0,360,Poor,1.0,0.53,Salaried,Semiurban,ELIGIBLE
+APP0377,50,Male,Yes,Graduate,No,139623.0,28092.0,376423.0,360,Good,2.0,0.442,Self-Employed,Urban,NOT_ELIGIBLE
+APP0378,50,Male,Yes,Graduate,No,77752.0,12753.0,279789.0,480,Good,2.0,0.632,Salaried,Urban,ELIGIBLE
+APP0379,36,Male,No,Graduate,No,110941.0,0.0,295207.0,480,Good,0.0,0.475,Contract,Semiurban,ELIGIBLE
+APP0380,31,Male,Yes,Graduate,No,36642.0,15291.0,169573.0,360,Good,2.0,0.687,,Semiurban,ELIGIBLE
+APP0381,21,Male,No,Graduate,No,61607.0,0.0,294684.0,240,Good,1.0,0.95,Salaried,Urban,ELIGIBLE
+APP0382,58,Male,Yes,Not Graduate,No,34974.0,52503.0,357903.0,360,Good,0.0,0.912,Contract,Semiurban,ELIGIBLE
+APP0383,58,Male,Yes,Not Graduate,No,49304.0,43603.0,327680.0,360,Good,1.0,0.839,Salaried,Rural,NOT_ELIGIBLE
+APP0384,30,Male,Yes,Not Graduate,No,79678.0,29590.0,368148.0,360,Good,0.0,0.82,Salaried,Semiurban,ELIGIBLE
+APP0385,22,Male,Yes,Graduate,No,57755.0,9258.0,551610.0,240,Good,1.0,0.95,Salaried,Rural,ELIGIBLE
+APP0386,25,Female,No,Graduate,No,27918.0,0.0,439015.0,180,Good,0.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0387,23,Male,Yes,Graduate,No,29257.0,31114.0,289748.0,480,Good,2.0,0.868,Contract,Urban,NOT_ELIGIBLE
+APP0388,54,Male,Yes,Not Graduate,No,28343.0,9175.0,159548.0,240,Good,1.0,0.95,Unemployed,Urban,NOT_ELIGIBLE
+APP0389,56,Male,No,Not Graduate,No,69632.0,8000.0,209933.0,300,Poor,0.0,0.759,Salaried,Rural,NOT_ELIGIBLE
+APP0390,27,Male,No,Not Graduate,Yes,148117.0,0.0,251984.0,360,Good,1.0,0.576,Salaried,Semiurban,ELIGIBLE
+APP0391,50,Male,Yes,Not Graduate,No,105775.0,10502.0,316055.0,240,Poor,0.0,0.947,Self-Employed,Rural,NOT_ELIGIBLE
+APP0392,28,Male,Yes,Graduate,No,22137.0,11305.0,222558.0,120,Poor,3.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0393,35,Female,Yes,Not Graduate,No,108793.0,20694.0,178687.0,480,Good,0.0,0.192,Salaried,Urban,ELIGIBLE
+APP0394,44,Male,Yes,Not Graduate,No,86212.0,30521.0,158294.0,360,Poor,2.0,0.314,Unemployed,Urban,NOT_ELIGIBLE
+APP0395,49,Male,Yes,Graduate,No,26196.0,43861.0,126751.0,480,Good,0.0,0.231,Contract,Semiurban,ELIGIBLE
+APP0396,55,Male,Yes,Not Graduate,No,47551.0,32643.0,250138.0,300,Good,0.0,0.915,Unemployed,Urban,NOT_ELIGIBLE
+APP0397,22,Male,No,Graduate,No,93054.0,8000.0,138290.0,240,Poor,2.0,0.388,Salaried,Semiurban,NOT_ELIGIBLE
+APP0398,28,Male,Yes,Not Graduate,Yes,71632.0,13545.0,173216.0,360,Good,0.0,0.497,Salaried,Rural,ELIGIBLE
+APP0399,32,,No,Not Graduate,No,29340.0,0.0,231763.0,360,Good,0.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0400,33,Female,Yes,Graduate,No,73736.0,15784.0,147459.0,120,Good,0.0,0.95,Unemployed,Urban,ELIGIBLE
+APP0401,60,Male,No,Graduate,No,19714.0,8000.0,335986.0,360,Good,1.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0402,52,Male,Yes,Graduate,No,49421.0,27381.0,399453.0,480,Good,4.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0403,33,Male,No,Not Graduate,No,94969.0,15000.0,215092.0,360,Good,0.0,0.41,Salaried,Rural,ELIGIBLE
+APP0404,59,Male,No,Not Graduate,No,55488.0,15000.0,227015.0,300,Good,0.0,0.919,Contract,Urban,NOT_ELIGIBLE
+APP0405,40,Female,Yes,Graduate,No,43287.0,48133.0,362403.0,300,Good,1.0,0.95,Contract,Rural,ELIGIBLE
+APP0406,41,Male,Yes,Not Graduate,No,84286.0,23162.0,198755.0,180,Good,1.0,0.84,Self-Employed,Semiurban,ELIGIBLE
+APP0407,38,,Yes,Graduate,No,87813.0,8758.0,192304.0,300,Good,0.0,0.534,Salaried,Semiurban,ELIGIBLE
+APP0408,26,Female,Yes,Graduate,No,103147.0,101730.0,497258.0,360,Good,2.0,0.628,Contract,Semiurban,ELIGIBLE
+APP0409,58,Male,No,Graduate,No,83681.0,15000.0,428033.0,360,Good,1.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0410,21,Male,Yes,Graduate,No,92425.0,28243.0,373730.0,360,Good,0.0,0.867,Salaried,Semiurban,ELIGIBLE
+APP0411,27,Female,No,Graduate,No,78189.0,0.0,436636.0,360,Good,1.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0412,30,Male,Yes,Graduate,No,62476.0,17324.0,108386.0,240,Poor,1.0,0.433,Salaried,Rural,ELIGIBLE
+APP0413,32,Male,Yes,Graduate,No,57415.0,13710.0,536266.0,120,Good,1.0,0.95,Salaried,Urban,ELIGIBLE
+APP0414,26,Male,Yes,Graduate,Yes,49080.0,87368.0,337978.0,120,Good,1.0,0.95,Unemployed,Semiurban,ELIGIBLE
+APP0415,21,Female,No,Not Graduate,No,30735.0,0.0,454849.0,240,Poor,3.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0416,48,,No,Graduate,Yes,34771.0,0.0,337183.0,360,Poor,2.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0417,59,Male,Yes,Not Graduate,No,48037.0,31997.0,286653.0,360,Good,2.0,0.786,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0418,25,Male,Yes,Graduate,No,61758.0,11460.0,245339.0,360,Good,2.0,0.772,Self-Employed,Urban,ELIGIBLE
+APP0419,32,Male,No,Graduate,No,109829.0,0.0,333959.0,360,Good,2.0,0.767,Salaried,Rural,NOT_ELIGIBLE
+APP0420,41,Male,Yes,Graduate,Yes,53908.0,12718.0,241085.0,360,Good,2.0,0.936,Self-Employed,Semiurban,ELIGIBLE
+APP0421,58,Male,No,,No,89033.0,15000.0,424695.0,240,Poor,1.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0422,48,Male,Yes,Graduate,No,92333.0,7579.0,130750.0,360,Good,2.0,0.343,Salaried,Rural,ELIGIBLE
+APP0423,51,Male,Yes,Graduate,Yes,49217.0,5839.0,215904.0,300,Good,0.0,0.95,Contract,Urban,NOT_ELIGIBLE
+APP0424,44,Female,Yes,Graduate,No,73170.0,27057.0,747179.0,360,Good,1.0,0.95,Self-Employed,Rural,NOT_ELIGIBLE
+APP0425,37,Male,Yes,Graduate,Yes,48932.0,13002.0,207322.0,360,Poor,1.0,0.74,Salaried,Urban,NOT_ELIGIBLE
+APP0426,28,Female,Yes,Graduate,No,103747.0,6038.0,249690.0,240,Good,1.0,0.717,Salaried,Semiurban,NOT_ELIGIBLE
+APP0427,55,Male,Yes,Graduate,No,74630.0,31263.0,183305.0,300,Poor,0.0,0.523,,Rural,ELIGIBLE
+APP0428,53,Male,No,Not Graduate,No,31059.0,0.0,328980.0,240,Good,1.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0429,22,Female,Yes,Graduate,,59434.0,54285.0,196642.0,480,Good,0.0,0.308,Contract,Rural,ELIGIBLE
+APP0430,49,Female,Yes,Not Graduate,Yes,121319.0,18612.0,256133.0,180,Good,0.0,0.885,Self-Employed,Rural,ELIGIBLE
+APP0431,24,Male,Yes,Not Graduate,No,50418.0,22127.0,420837.0,120,Good,0.0,0.95,Contract,Urban,NOT_ELIGIBLE
+APP0432,50,Female,Yes,Not Graduate,,68186.0,39175.0,200213.0,240,Poor,1.0,0.723,Salaried,Rural,NOT_ELIGIBLE
+APP0433,54,Male,Yes,Not Graduate,No,71476.0,45624.0,408840.0,360,Good,1.0,0.884,Contract,Rural,NOT_ELIGIBLE
+APP0434,26,Male,Yes,Graduate,No,33440.0,17597.0,415490.0,360,Good,1.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0435,38,Female,No,Graduate,No,70279.0,8000.0,464596.0,360,Good,0.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0436,25,Male,Yes,Graduate,No,28171.0,26748.0,299540.0,300,Good,2.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0437,43,Female,No,Not Graduate,Yes,40733.0,0.0,1000000.0,180,Good,3.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0438,58,Male,Yes,Graduate,No,92174.0,20177.0,464502.0,360,Good,0.0,0.95,Contract,Semiurban,NOT_ELIGIBLE
+APP0439,24,Female,No,Graduate,Yes,65273.0,0.0,327252.0,240,Good,2.0,0.95,Contract,Semiurban,ELIGIBLE
+APP0440,36,Male,Yes,Not Graduate,Yes,47522.0,53943.0,183891.0,120,Good,0.0,0.95,Self-Employed,Semiurban,ELIGIBLE
+APP0441,59,Male,Yes,,No,68145.0,48290.0,,360,Good,0.0,0.576,Self-Employed,Semiurban,ELIGIBLE
+APP0442,33,Male,No,Graduate,No,53436.0,0.0,555254.0,180,Good,1.0,0.95,Self-Employed,Urban,ELIGIBLE
+APP0443,26,Male,No,Not Graduate,No,55333.0,0.0,636107.0,180,Good,0.0,0.95,,Rural,ELIGIBLE
+APP0444,40,Male,No,Graduate,No,75385.0,0.0,569289.0,360,Good,2.0,0.95,Contract,Urban,NOT_ELIGIBLE
+APP0445,41,Male,Yes,Graduate,No,38791.0,63179.0,408169.0,360,Good,3.0,0.95,Self-Employed,Urban,NOT_ELIGIBLE
+APP0446,47,Male,No,Not Graduate,Yes,56075.0,0.0,153250.0,300,Good,0.0,0.799,Contract,Urban,NOT_ELIGIBLE
+APP0447,33,Male,No,Graduate,No,47344.0,0.0,353763.0,300,Good,,0.95,Salaried,Rural,ELIGIBLE
+APP0448,59,Male,No,Graduate,No,25694.0,15000.0,154303.0,360,Poor,1.0,0.95,Unemployed,Rural,NOT_ELIGIBLE
+APP0449,41,Female,Yes,Graduate,No,35358.0,14055.0,137113.0,180,Good,5.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0450,32,Female,No,Graduate,No,116754.0,8000.0,314061.0,180,Good,2.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0451,59,Female,No,Graduate,No,66155.0,0.0,359936.0,360,Good,2.0,0.95,Contract,Semiurban,ELIGIBLE
+APP0452,57,Male,No,Not Graduate,No,29137.0,0.0,431994.0,360,Good,4.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0453,40,Female,Yes,Not Graduate,No,26258.0,14248.0,355461.0,480,Good,1.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0454,21,Male,Yes,Graduate,No,52117.0,39616.0,361388.0,300,Good,1.0,0.95,Salaried,Urban,ELIGIBLE
+APP0455,44,Male,No,Graduate,No,116362.0,0.0,174540.0,180,Good,1.0,0.624,Salaried,Semiurban,ELIGIBLE
+APP0456,43,Male,Yes,Graduate,No,50284.0,34781.0,266241.0,360,Good,1.0,0.797,Unemployed,Semiurban,ELIGIBLE
+APP0457,26,Female,No,Graduate,No,102996.0,0.0,135826.0,360,Good,3.0,0.264,Contract,Semiurban,ELIGIBLE
+APP0458,46,Male,Yes,,Yes,65122.0,54931.0,107037.0,240,Good,0.0,0.295,Salaried,Semiurban,ELIGIBLE
+APP0459,54,Male,Yes,Graduate,No,68960.0,48916.0,399534.0,360,Good,2.0,0.802,Unemployed,Urban,NOT_ELIGIBLE
+APP0460,25,Female,No,Graduate,No,28968.0,0.0,195057.0,240,Good,4.0,0.95,Self-Employed,Urban,NOT_ELIGIBLE
+APP0461,49,Male,Yes,Not Graduate,No,86258.0,25125.0,425638.0,360,Good,1.0,0.898,Contract,Urban,NOT_ELIGIBLE
+APP0462,26,Male,Yes,Graduate,No,46832.0,25483.0,476657.0,360,Good,0.0,0.95,Salaried,Urban,ELIGIBLE
+APP0463,50,Female,No,Not Graduate,No,83231.0,15000.0,207996.0,360,,0.0,0.505,Salaried,Rural,NOT_ELIGIBLE
+APP0464,37,Male,No,Graduate,No,37208.0,0.0,371719.0,480,Good,2.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0465,21,Male,No,Not Graduate,No,59878.0,0.0,203860.0,480,Good,1.0,0.57,Salaried,Urban,ELIGIBLE
+APP0466,59,Female,Yes,Graduate,No,65124.0,12673.0,115442.0,240,Poor,0.0,0.594,Contract,Urban,NOT_ELIGIBLE
+APP0467,27,Female,Yes,Graduate,No,51080.0,11128.0,297073.0,300,Good,2.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0468,44,Male,No,Not Graduate,No,66787.0,0.0,223357.0,360,Poor,1.0,0.791,Self-Employed,Rural,NOT_ELIGIBLE
+APP0469,28,Male,Yes,Not Graduate,Yes,48398.0,25417.0,226682.0,180,Good,3.0,0.95,Self-Employed,Rural,ELIGIBLE
+APP0470,58,Male,Yes,Graduate,No,40277.0,21618.0,722671.0,300,Good,1.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0471,50,Male,Yes,Graduate,No,118862.0,25305.0,134610.0,300,Good,0.0,0.189,Salaried,Rural,ELIGIBLE
+APP0472,53,Male,Yes,Graduate,Yes,90997.0,30465.0,336490.0,480,Good,0.0,0.471,Self-Employed,Semiurban,ELIGIBLE
+APP0473,38,Male,No,Graduate,No,38173.0,8000.0,173692.0,360,Good,2.0,0.897,Contract,Rural,ELIGIBLE
+APP0474,39,Male,No,Graduate,No,72254.0,0.0,433008.0,360,Good,0.0,0.95,Salaried,Rural,ELIGIBLE
+APP0475,46,Female,No,Not Graduate,Yes,38507.0,15000.0,323124.0,300,Good,1.0,0.95,Unemployed,Urban,NOT_ELIGIBLE
+APP0476,52,Male,Yes,Graduate,No,31146.0,16599.0,335921.0,240,Good,2.0,0.95,Contract,Semiurban,NOT_ELIGIBLE
+APP0477,54,Male,Yes,Graduate,No,90338.0,30102.0,177904.0,360,Good,1.0,0.328,Self-Employed,Urban,ELIGIBLE
+APP0478,21,Male,Yes,Graduate,No,24273.0,6668.0,193893.0,120,Poor,3.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0479,47,Female,Yes,Graduate,No,85818.0,13160.0,436972.0,180,Good,1.0,0.95,Contract,Rural,NOT_ELIGIBLE
+APP0480,25,Male,Yes,Graduate,No,48717.0,41627.0,655090.0,300,Poor,4.0,0.95,Contract,Urban,NOT_ELIGIBLE
+APP0481,32,Male,Yes,Graduate,No,49689.0,7112.0,352601.0,360,Good,0.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0482,54,Male,Yes,Graduate,,66955.0,45489.0,182004.0,300,Good,3.0,0.445,Unemployed,Rural,ELIGIBLE
+APP0483,31,Male,Yes,Graduate,No,72698.0,58749.0,329468.0,180,Good,3.0,0.95,Contract,Semiurban,NOT_ELIGIBLE
+APP0484,52,Male,No,Not Graduate,No,36992.0,8000.0,897826.0,300,Good,0.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0485,39,Female,Yes,Not Graduate,No,77621.0,26595.0,294110.0,300,Good,1.0,0.838,Contract,Semiurban,ELIGIBLE
+APP0486,30,Male,Yes,Not Graduate,No,58076.0,45534.0,564801.0,120,Poor,2.0,0.95,Self-Employed,Rural,NOT_ELIGIBLE
+APP0487,34,Female,No,Graduate,No,30097.0,15000.0,196258.0,360,,0.0,0.95,Contract,Urban,ELIGIBLE
+APP0488,42,Female,No,Graduate,Yes,50693.0,0.0,274400.0,180,Good,2.0,0.95,Contract,Urban,NOT_ELIGIBLE
+APP0489,51,Male,No,Graduate,No,106735.0,0.0,376976.0,300,Good,0.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0490,45,Male,Yes,Graduate,Yes,122989.0,16129.0,338833.0,360,Good,0.0,0.582,Salaried,Rural,ELIGIBLE
+APP0491,58,Male,No,Graduate,No,77607.0,15000.0,193819.0,360,Good,2.0,0.453,Salaried,Urban,ELIGIBLE
+APP0492,55,Female,Yes,Graduate,No,31061.0,27488.0,189848.0,300,Poor,1.0,0.871,Contract,Urban,NOT_ELIGIBLE
+APP0493,51,Male,Yes,Graduate,No,69604.0,46699.0,449963.0,300,Good,1.0,0.95,Salaried,Rural,ELIGIBLE
+APP0494,45,Male,Yes,Graduate,No,82744.0,19519.0,496078.0,300,Good,2.0,0.95,Contract,Urban,NOT_ELIGIBLE
+APP0495,32,Male,Yes,Graduate,No,77919.0,9629.0,578604.0,480,Good,1.0,0.95,Salaried,Urban,ELIGIBLE
+APP0496,37,Female,Yes,Graduate,No,80167.0,10884.0,665592.0,240,Good,1.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0497,25,Male,Yes,Graduate,No,65477.0,28432.0,298690.0,240,Poor,0.0,0.95,Contract,Urban,NOT_ELIGIBLE
+APP0498,35,Female,No,Graduate,No,53121.0,15000.0,241149.0,360,Poor,1.0,0.836,Self-Employed,Urban,ELIGIBLE
+APP0499,58,Male,Yes,Graduate,No,41072.0,28416.0,535534.0,240,Good,1.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0500,38,Female,Yes,Graduate,No,22117.0,17108.0,394281.0,240,Poor,1.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0501,25,Male,Yes,Graduate,No,64739.0,36200.0,174725.0,180,Good,1.0,0.822,Salaried,Semiurban,NOT_ELIGIBLE
+APP0502,47,Male,Yes,Not Graduate,No,60138.0,18828.0,170485.0,360,Good,0.0,0.451,Salaried,Semiurban,ELIGIBLE
+APP0503,59,Female,Yes,Graduate,No,71878.0,17204.0,354574.0,360,Good,3.0,0.865,Salaried,Semiurban,ELIGIBLE
+APP0504,55,,Yes,Graduate,No,28943.0,11799.0,257160.0,360,Good,0.0,0.95,Self-Employed,Semiurban,ELIGIBLE
+APP0505,31,Male,Yes,Not Graduate,No,74959.0,54956.0,276470.0,360,Good,2.0,0.531,Salaried,Rural,ELIGIBLE
+APP0506,39,Male,No,Graduate,No,147454.0,8000.0,468533.0,300,Good,0.0,0.885,Salaried,Rural,ELIGIBLE
+APP0507,42,Female,No,Not Graduate,No,57111.0,0.0,403077.0,480,Good,0.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0508,30,Female,Yes,Not Graduate,Yes,53396.0,16275.0,530133.0,360,Poor,2.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0509,31,Male,No,Graduate,No,63794.0,8000.0,110792.0,360,Poor,2.0,0.269,Unemployed,Rural,ELIGIBLE
+APP0510,30,Male,No,Graduate,No,145890.0,15000.0,316214.0,360,Good,1.0,0.497,Salaried,Urban,ELIGIBLE
+APP0511,60,Female,No,Graduate,No,33649.0,15000.0,390817.0,300,Good,1.0,0.95,Salaried,Rural,ELIGIBLE
+APP0512,50,Female,Yes,Not Graduate,,60635.0,14140.0,134562.0,300,Good,1.0,0.627,Self-Employed,Rural,ELIGIBLE
+APP0513,54,Female,No,Graduate,Yes,37468.0,0.0,204474.0,360,Good,2.0,,Contract,Urban,ELIGIBLE
+APP0514,53,Male,No,Graduate,No,42299.0,0.0,187046.0,180,Good,2.0,0.95,Contract,Urban,NOT_ELIGIBLE
+APP0515,59,Male,No,Graduate,No,53706.0,15000.0,282931.0,360,Good,4.0,0.95,Contract,Semiurban,NOT_ELIGIBLE
+APP0516,25,Female,Yes,Graduate,No,105009.0,7909.0,611650.0,180,Good,1.0,0.95,Unemployed,Semiurban,ELIGIBLE
+APP0517,56,Female,Yes,Not Graduate,No,130557.0,12533.0,739247.0,120,Good,0.0,0.95,Self-Employed,Semiurban,ELIGIBLE
+APP0518,23,Female,Yes,Graduate,No,68200.0,50598.0,189413.0,480,Good,,0.288,Unemployed,Semiurban,ELIGIBLE
+APP0519,40,Male,Yes,Not Graduate,No,45905.0,23096.0,360516.0,360,Good,0.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0520,44,,Yes,Not Graduate,No,181971.0,29496.0,366139.0,360,Poor,0.0,0.326,Contract,Urban,ELIGIBLE
+APP0521,35,Female,Yes,Graduate,No,44795.0,18562.0,337259.0,300,Good,0.0,0.95,Contract,Rural,ELIGIBLE
+APP0522,26,Male,Yes,Graduate,No,,14330.0,339102.0,360,Good,1.0,0.95,Contract,Urban,ELIGIBLE
+APP0523,28,Female,Yes,Not Graduate,Yes,23461.0,65462.0,323949.0,360,Good,1.0,0.879,Salaried,Semiurban,ELIGIBLE
+APP0524,53,Male,No,Not Graduate,No,107496.0,0.0,629435.0,360,Good,0.0,0.95,Contract,Urban,NOT_ELIGIBLE
+APP0525,33,Female,Yes,Not Graduate,,87540.0,16492.0,475313.0,360,Good,1.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0526,33,Female,Yes,Graduate,No,175542.0,44859.0,168328.0,360,Good,1.0,0.198,Self-Employed,Semiurban,ELIGIBLE
+APP0527,57,Male,No,Graduate,No,28229.0,0.0,410237.0,300,Good,2.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0528,26,Male,No,Graduate,No,110748.0,0.0,429718.0,360,Good,2.0,0.942,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0529,57,Male,No,Not Graduate,No,56883.0,0.0,325699.0,480,Good,0.0,0.95,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0530,57,Male,No,Graduate,No,80985.0,0.0,481966.0,360,Good,1.0,0.95,Salaried,Urban,ELIGIBLE
+APP0531,44,Male,No,Graduate,No,24938.0,0.0,306453.0,300,Good,1.0,0.95,Salaried,Urban,ELIGIBLE
+APP0532,27,Male,Yes,Graduate,No,111276.0,85681.0,308282.0,360,Good,0.0,0.35,Salaried,Semiurban,ELIGIBLE
+APP0533,27,Female,Yes,Graduate,Yes,80227.0,27374.0,296778.0,360,Good,1.0,0.651,Self-Employed,Semiurban,ELIGIBLE
+APP0534,32,Male,Yes,Graduate,No,53982.0,4689.0,106275.0,480,Good,2.0,0.32,Self-Employed,Semiurban,ELIGIBLE
+APP0535,44,Male,Yes,Graduate,Yes,74962.0,27198.0,269400.0,360,Good,2.0,0.63,Contract,Rural,ELIGIBLE
+APP0536,27,Male,No,Graduate,No,38088.0,0.0,203167.0,300,Good,1.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0537,39,Male,Yes,Not Graduate,Yes,41646.0,22630.0,158427.0,300,Good,0.0,0.581,Contract,Urban,ELIGIBLE
+APP0538,25,Male,Yes,Not Graduate,No,44030.0,25814.0,557308.0,360,Good,2.0,0.95,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0539,42,Male,Yes,Graduate,No,22602.0,21594.0,356669.0,120,Good,1.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0540,21,Female,Yes,Graduate,No,83178.0,21260.0,276019.0,360,Good,0.0,0.559,Salaried,Rural,ELIGIBLE
+APP0541,49,Male,Yes,Not Graduate,No,97446.0,32770.0,213510.0,360,Good,2.0,0.43,Salaried,Urban,ELIGIBLE
+APP0542,23,Female,Yes,Graduate,No,39279.0,15467.0,322774.0,360,Poor,2.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0543,28,Male,No,Graduate,,65005.0,0.0,450645.0,240,Poor,1.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0544,27,Male,Yes,Graduate,No,48418.0,130000.0,188264.0,360,Poor,3.0,0.355,Salaried,Urban,ELIGIBLE
+APP0545,54,Female,No,Graduate,No,64387.0,0.0,279352.0,360,Good,3.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0546,23,Female,No,Graduate,No,40695.0,0.0,424733.0,300,Good,0.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0547,38,Male,Yes,Not Graduate,No,35992.0,8322.0,110555.0,360,Good,1.0,0.62,Salaried,Urban,ELIGIBLE
+APP0548,44,Male,Yes,Graduate,No,91134.0,23730.0,272369.0,360,Good,0.0,0.56,,Urban,ELIGIBLE
+APP0549,41,Male,No,Graduate,No,53339.0,0.0,227860.0,360,Good,1.0,0.95,Self-Employed,Urban,ELIGIBLE
+APP0550,48,Male,Yes,Not Graduate,Yes,145176.0,16501.0,262579.0,240,,1.0,0.629,Salaried,Rural,ELIGIBLE
+APP0551,53,Male,No,Not Graduate,No,56236.0,0.0,220084.0,240,Good,1.0,0.95,Self-Employed,Urban,NOT_ELIGIBLE
+APP0552,36,Male,Yes,Not Graduate,No,35262.0,29900.0,299121.0,360,Good,1.0,0.95,Self-Employed,Urban,NOT_ELIGIBLE
+APP0553,54,Male,No,Graduate,No,99113.0,8000.0,704953.0,180,Good,3.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0554,33,Male,No,Graduate,No,74449.0,8000.0,239681.0,360,,1.0,0.695,Salaried,Urban,ELIGIBLE
+APP0555,60,Female,Yes,Graduate,Yes,77963.0,72604.0,322084.0,360,Poor,0.0,,Salaried,Urban,ELIGIBLE
+APP0556,41,Male,Yes,Graduate,No,97400.0,10138.0,729433.0,240,Good,2.0,0.95,Self-Employed,Semiurban,ELIGIBLE
+APP0557,50,Male,No,Graduate,No,40205.0,0.0,215031.0,360,Good,1.0,0.95,Salaried,Urban,ELIGIBLE
+APP0558,56,Male,Yes,Graduate,Yes,51741.0,42736.0,669033.0,480,Poor,1.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0559,52,Male,Yes,Graduate,Yes,50655.0,32018.0,280716.0,360,Good,1.0,0.839,Self-Employed,Urban,NOT_ELIGIBLE
+APP0560,55,Male,Yes,Not Graduate,No,29600.0,12620.0,658589.0,360,Good,0.0,0.95,Unemployed,Semiurban,NOT_ELIGIBLE
+APP0561,42,Female,Yes,Not Graduate,No,48463.0,24278.0,401371.0,360,Good,1.0,0.95,Salaried,Urban,ELIGIBLE
+APP0562,22,Female,No,Graduate,No,104459.0,15000.0,324473.0,240,Good,2.0,0.95,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0563,40,Female,No,Graduate,No,61637.0,0.0,271317.0,240,Good,0.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0564,28,Female,Yes,Graduate,No,28824.0,18702.0,207525.0,360,Poor,3.0,0.95,Contract,Semiurban,NOT_ELIGIBLE
+APP0565,56,Female,No,Graduate,No,26063.0,15000.0,290374.0,300,Good,2.0,0.95,Contract,Urban,ELIGIBLE
+APP0566,30,Female,Yes,Graduate,No,122294.0,45613.0,430748.0,300,Poor,1.0,0.723,Contract,Rural,ELIGIBLE
+APP0567,30,Male,Yes,,No,52667.0,20870.0,278243.0,120,Poor,3.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0568,30,Male,Yes,Not Graduate,Yes,40309.0,16053.0,240522.0,360,Good,0.0,0.95,Salaried,Urban,ELIGIBLE
+APP0569,46,Male,No,Graduate,No,48222.0,15000.0,248244.0,120,Good,0.0,0.95,Contract,Semiurban,ELIGIBLE
+APP0570,43,Male,Yes,Not Graduate,No,27065.0,27772.0,450870.0,360,Good,0.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0571,58,Male,Yes,Graduate,No,108899.0,12306.0,504147.0,300,Good,1.0,0.95,Unemployed,Urban,ELIGIBLE
+APP0572,37,Female,Yes,Graduate,No,45543.0,5079.0,203275.0,360,Good,1.0,0.945,Salaried,Semiurban,ELIGIBLE
+APP0573,32,Male,No,Graduate,No,106026.0,0.0,203134.0,300,Good,3.0,0.504,Salaried,Semiurban,ELIGIBLE
+APP0574,22,Male,Yes,Graduate,No,56381.0,30829.0,335923.0,240,Poor,1.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0575,21,Male,Yes,Graduate,No,109236.0,19323.0,582894.0,360,Good,2.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0576,35,Male,No,Not Graduate,No,62212.0,0.0,485347.0,360,Good,0.0,0.95,Contract,Urban,NOT_ELIGIBLE
+APP0577,58,Male,Yes,Graduate,No,82838.0,23309.0,153531.0,240,Good,5.0,0.529,Salaried,Urban,ELIGIBLE
+APP0578,41,Female,Yes,Graduate,No,77672.0,8492.0,246665.0,360,Good,1.0,0.758,Self-Employed,Urban,ELIGIBLE
+APP0579,56,Male,Yes,Graduate,No,74181.0,11284.0,179128.0,360,Good,1.0,0.53,Self-Employed,Semiurban,ELIGIBLE
+APP0580,25,Female,Yes,Graduate,No,64997.0,13505.0,246259.0,240,Poor,2.0,0.95,Contract,Rural,NOT_ELIGIBLE
+APP0581,24,Male,Yes,Graduate,No,49184.0,38077.0,604805.0,360,Good,1.0,0.95,Self-Employed,Rural,NOT_ELIGIBLE
+APP0582,54,Male,No,Graduate,Yes,137929.0,0.0,141449.0,240,Good,2.0,0.4,Unemployed,Rural,ELIGIBLE
+APP0583,25,Male,No,Not Graduate,No,35588.0,0.0,128732.0,360,Good,1.0,0.913,Contract,Semiurban,ELIGIBLE
+APP0584,23,Female,No,Graduate,No,55114.0,8000.0,188121.0,180,Good,1.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0585,37,Female,No,Graduate,No,55394.0,0.0,321404.0,360,Good,0.0,0.95,Contract,Semiurban,ELIGIBLE
+APP0586,57,Male,Yes,Graduate,No,66720.0,27423.0,377191.0,300,Poor,0.0,0.95,Unemployed,Urban,NOT_ELIGIBLE
+APP0587,48,Female,Yes,Not Graduate,No,44754.0,17301.0,345421.0,360,Good,2.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0588,24,Male,No,Graduate,Yes,63970.0,0.0,492315.0,360,Poor,0.0,0.95,Self-Employed,Semiurban,ELIGIBLE
+APP0589,54,Female,Yes,Graduate,No,50718.0,5312.0,120122.0,480,Good,2.0,0.323,,Semiurban,ELIGIBLE
+APP0590,54,Male,No,Graduate,No,25739.0,0.0,495314.0,360,Good,0.0,0.95,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0591,53,Male,No,Graduate,No,55253.0,8000.0,241045.0,360,Good,1.0,0.901,Salaried,Rural,ELIGIBLE
+APP0592,57,Female,Yes,Graduate,No,32429.0,19581.0,397783.0,240,Good,1.0,0.95,Contract,Urban,ELIGIBLE
+APP0593,30,Male,Yes,Not Graduate,No,23923.0,20123.0,148346.0,300,Good,0.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0594,60,Male,Yes,Graduate,No,58735.0,35500.0,280667.0,180,Good,1.0,0.95,Self-Employed,Semiurban,ELIGIBLE
+APP0595,33,Male,Yes,Not Graduate,No,69513.0,8008.0,313625.0,360,Poor,1.0,0.938,Salaried,Rural,NOT_ELIGIBLE
+APP0596,53,Male,Yes,Graduate,No,70820.0,14994.0,487627.0,360,Good,2.0,0.95,Self-Employed,Urban,ELIGIBLE
+APP0597,44,Female,Yes,Not Graduate,No,72210.0,10511.0,130826.0,360,Good,2.0,0.423,Salaried,Urban,ELIGIBLE
+APP0598,52,Female,No,Not Graduate,No,21752.0,0.0,284164.0,360,Good,2.0,0.95,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0599,46,Female,No,Graduate,No,28618.0,0.0,166314.0,360,Good,0.0,0.95,Salaried,Rural,ELIGIBLE
+APP0600,46,Male,No,Graduate,No,141829.0,0.0,356890.0,240,Good,0.0,0.828,Salaried,Rural,ELIGIBLE
+APP0601,45,Male,Yes,Graduate,No,33271.0,8224.0,406610.0,120,Good,0.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0602,52,Male,Yes,Not Graduate,Yes,73739.0,20187.0,519378.0,360,Good,3.0,0.95,Unemployed,Urban,NOT_ELIGIBLE
+APP0603,50,Male,Yes,Graduate,No,39551.0,16183.0,216583.0,240,Good,1.0,0.95,Salaried,Urban,ELIGIBLE
+APP0604,26,Male,Yes,Graduate,No,57144.0,9302.0,436967.0,180,Good,1.0,0.95,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0605,54,Female,No,Graduate,No,40584.0,0.0,538088.0,480,Good,2.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0606,42,Female,Yes,Not Graduate,No,72015.0,26956.0,127234.0,480,Good,2.0,0.176,Contract,Semiurban,ELIGIBLE
+APP0607,33,Female,Yes,Graduate,No,58732.0,29954.0,375672.0,360,Good,1.0,0.95,Salaried,Rural,ELIGIBLE
+APP0608,41,Male,No,Graduate,No,44352.0,15000.0,443579.0,300,Poor,1.0,0.95,,Semiurban,NOT_ELIGIBLE
+APP0609,59,Male,Yes,Not Graduate,No,33223.0,35182.0,247300.0,360,Good,1.0,0.872,Salaried,Urban,NOT_ELIGIBLE
+APP0610,55,Male,Yes,Graduate,No,62544.0,17180.0,,240,Poor,2.0,0.744,Salaried,Urban,ELIGIBLE
+APP0611,54,Male,Yes,Not Graduate,No,30730.0,18299.0,440279.0,360,Good,1.0,0.95,Salaried,Urban,ELIGIBLE
+APP0612,39,Male,No,Graduate,No,67527.0,0.0,157437.0,300,Good,0.0,0.67,Salaried,Semiurban,ELIGIBLE
+APP0613,52,Male,No,Graduate,No,194036.0,0.0,257027.0,480,Good,2.0,0.219,Self-Employed,Urban,ELIGIBLE
+APP0614,36,Male,Yes,Not Graduate,No,105153.0,62123.0,274659.0,480,Good,2.0,0.341,Unemployed,Urban,ELIGIBLE
+APP0615,48,Female,No,Graduate,No,77644.0,15000.0,394748.0,360,Good,0.0,0.95,Salaried,Urban,ELIGIBLE
+APP0616,46,Male,No,Graduate,No,52786.0,0.0,207267.0,180,Good,0.0,0.95,Contract,Urban,ELIGIBLE
+APP0617,30,Female,No,Graduate,No,,8000.0,201581.0,360,Good,0.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0618,31,Male,Yes,Graduate,No,29155.0,12073.0,293615.0,300,Poor,3.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0619,23,Male,Yes,Graduate,No,101806.0,10338.0,453891.0,360,Good,2.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0620,26,Male,No,Graduate,No,37647.0,0.0,839466.0,240,Good,0.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0621,38,Male,Yes,Graduate,Yes,39318.0,22964.0,135802.0,180,Good,1.0,0.95,Salaried,Urban,ELIGIBLE
+APP0622,40,Male,Yes,Graduate,No,50796.0,16268.0,325758.0,360,Good,0.0,0.95,Contract,Semiurban,NOT_ELIGIBLE
+APP0623,27,Male,No,Graduate,No,33034.0,0.0,166210.0,360,Good,2.0,0.95,Self-Employed,Urban,ELIGIBLE
+APP0624,37,Female,Yes,Graduate,No,30523.0,9658.0,456605.0,360,Good,2.0,0.95,Self-Employed,Rural,ELIGIBLE
+APP0625,45,Male,No,Graduate,No,53683.0,0.0,178446.0,180,Good,1.0,0.95,Salaried,Urban,ELIGIBLE
+APP0626,30,Male,No,Graduate,No,35852.0,0.0,202544.0,360,Good,0.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0627,34,Male,No,Not Graduate,No,38538.0,8000.0,211017.0,120,Good,1.0,0.95,Self-Employed,Urban,ELIGIBLE
+APP0628,35,Male,Yes,Graduate,No,37802.0,60139.0,269944.0,120,Good,0.0,0.95,Salaried,Rural,ELIGIBLE
+APP0629,41,Male,No,Graduate,No,70673.0,0.0,326988.0,360,Good,1.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0630,35,Male,Yes,Graduate,No,49201.0,50228.0,353176.0,240,Good,3.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0631,50,Female,No,Not Graduate,No,50482.0,0.0,279226.0,360,Good,1.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0632,34,Female,No,Graduate,Yes,73249.0,0.0,147886.0,120,Poor,1.0,,Self-Employed,Rural,NOT_ELIGIBLE
+APP0633,38,Female,No,Graduate,No,51375.0,15000.0,397076.0,120,Good,0.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0634,36,Male,Yes,Graduate,No,48124.0,7298.0,272972.0,360,Good,0.0,0.95,Salaried,Urban,ELIGIBLE
+APP0635,28,Male,Yes,Graduate,No,68934.0,55671.0,489029.0,240,Poor,2.0,0.95,Contract,Urban,NOT_ELIGIBLE
+APP0636,48,Female,Yes,Not Graduate,No,75798.0,20150.0,199353.0,360,Good,1.0,0.489,Unemployed,Urban,ELIGIBLE
+APP0637,30,Male,Yes,Not Graduate,No,51251.0,35738.0,129761.0,360,Poor,1.0,0.32,Salaried,Rural,NOT_ELIGIBLE
+APP0638,32,Male,Yes,Graduate,No,57170.0,13494.0,,180,Good,1.0,0.95,Salaried,Rural,ELIGIBLE
+APP0639,52,Male,Yes,Not Graduate,No,37791.0,19765.0,521572.0,360,Poor,0.0,0.95,Contract,Urban,NOT_ELIGIBLE
+APP0640,58,Female,Yes,Graduate,No,36387.0,12523.0,,300,Poor,,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0641,47,Male,No,Graduate,No,79561.0,8000.0,254410.0,300,Good,3.0,0.845,Salaried,Urban,ELIGIBLE
+APP0642,57,Female,No,Not Graduate,No,68095.0,0.0,184384.0,180,Good,0.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0643,55,Female,Yes,Graduate,No,68434.0,27928.0,651005.0,360,Good,4.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0644,40,Male,No,Graduate,No,62938.0,0.0,170815.0,360,Good,,0.557,Unemployed,Urban,ELIGIBLE
+APP0645,51,Female,No,Graduate,No,56233.0,15000.0,197670.0,360,Good,1.0,0.636,Contract,Urban,ELIGIBLE
+APP0646,34,Male,Yes,Not Graduate,Yes,76831.0,36180.0,368119.0,480,Good,0.0,0.551,Unemployed,Rural,ELIGIBLE
+APP0647,39,Male,Yes,Graduate,Yes,86158.0,8731.0,114881.0,300,Good,0.0,0.336,Contract,Semiurban,ELIGIBLE
+APP0648,42,Male,No,Graduate,No,85176.0,8000.0,516251.0,360,Good,3.0,0.95,Self-Employed,Rural,NOT_ELIGIBLE
+APP0649,59,Female,No,Graduate,No,52403.0,15000.0,377814.0,360,Good,0.0,,Contract,Urban,ELIGIBLE
+APP0650,54,Male,No,Graduate,No,107028.0,0.0,431135.0,480,Good,0.0,0.782,Self-Employed,Rural,NOT_ELIGIBLE
+APP0651,40,Male,No,Graduate,No,61374.0,0.0,366019.0,480,Poor,3.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0652,47,Male,No,Not Graduate,No,74506.0,15000.0,259161.0,480,Good,2.0,0.417,Salaried,Semiurban,NOT_ELIGIBLE
+APP0653,29,Male,Yes,Not Graduate,No,62975.0,19460.0,168086.0,240,Poor,2.0,0.69,Self-Employed,Urban,NOT_ELIGIBLE
+APP0654,53,Male,No,Not Graduate,No,61923.0,0.0,261793.0,360,Poor,0.0,0.95,Salaried,Rural,ELIGIBLE
+APP0655,43,Male,Yes,Not Graduate,No,38636.0,21253.0,175331.0,360,Good,4.0,0.711,Salaried,Semiurban,NOT_ELIGIBLE
+APP0656,42,Male,No,Graduate,No,77014.0,8000.0,353592.0,360,Good,2.0,0.931,Salaried,Rural,NOT_ELIGIBLE
+APP0657,51,Female,Yes,Graduate,No,215524.0,31025.0,412421.0,300,Poor,1.0,0.574,Self-Employed,Semiurban,ELIGIBLE
+APP0658,46,Male,Yes,Graduate,No,45944.0,28127.0,568873.0,480,Good,0.0,0.95,Salaried,Rural,ELIGIBLE
+APP0659,23,Female,No,Graduate,No,56907.0,8000.0,334701.0,240,Good,2.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0660,32,Male,Yes,Not Graduate,No,44396.0,38174.0,436412.0,360,Poor,1.0,0.95,Salaried,Rural,NOT_ELIGIBLE
+APP0661,28,Male,No,Graduate,No,43514.0,0.0,242781.0,360,Good,0.0,0.95,Salaried,Urban,ELIGIBLE
+APP0662,50,Male,Yes,Not Graduate,No,115431.0,37442.0,222564.0,240,Good,2.0,0.546,Unemployed,Urban,ELIGIBLE
+APP0663,22,Male,No,Graduate,No,39818.0,0.0,351480.0,360,Poor,0.0,0.95,Salaried,Semiurban,NOT_ELIGIBLE
+APP0664,29,Female,No,Graduate,No,43806.0,0.0,232591.0,180,Good,1.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0665,44,Male,Yes,Graduate,No,25670.0,27319.0,318620.0,360,Poor,0.0,0.95,Salaried,Semiurban,ELIGIBLE
+APP0666,48,Male,No,Graduate,No,38232.0,15000.0,168244.0,360,Good,3.0,0.879,Contract,Semiurban,ELIGIBLE
+APP0667,41,Male,Yes,Graduate,No,24223.0,21475.0,183389.0,300,Good,4.0,0.95,Self-Employed,Semiurban,NOT_ELIGIBLE
+APP0668,55,Female,Yes,Graduate,No,74485.0,11335.0,379854.0,360,Good,1.0,0.95,Salaried,Rural,ELIGIBLE
+APP0669,57,Male,No,Graduate,No,210859.0,0.0,428547.0,240,Good,1.0,0.678,Salaried,Urban,ELIGIBLE
+APP0670,26,Male,No,Not Graduate,No,46124.0,15000.0,174456.0,360,Poor,1.0,0.735,Contract,Rural,NOT_ELIGIBLE
+APP0671,59,Female,Yes,Graduate,No,24712.0,28986.0,386327.0,480,Good,2.0,0.95,Unemployed,Urban,ELIGIBLE
+APP0672,45,Female,Yes,Graduate,No,84718.0,22278.0,216822.0,240,Good,0.0,0.643,Salaried,Semiurban,ELIGIBLE
+APP0673,46,Female,No,Not Graduate,No,38800.0,0.0,282227.0,360,Good,0.0,0.95,Salaried,Rural,ELIGIBLE
+APP0674,24,Male,Yes,Graduate,No,102619.0,22097.0,552759.0,360,Poor,2.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0675,45,Male,Yes,Not Graduate,No,48036.0,13349.0,412561.0,360,Good,1.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0676,50,Male,Yes,Not Graduate,No,40612.0,18738.0,410267.0,360,Good,0.0,0.95,Contract,Urban,ELIGIBLE
+APP0677,44,Female,Yes,Graduate,No,50497.0,9182.0,699950.0,360,Good,3.0,0.95,Unemployed,Semiurban,ELIGIBLE
+APP0678,24,Male,No,Graduate,Yes,79128.0,0.0,199722.0,360,Good,1.0,0.516,Unemployed,Semiurban,ELIGIBLE
+APP0679,41,Female,Yes,Graduate,No,49312.0,32280.0,174438.0,240,Poor,2.0,0.774,Contract,Urban,NOT_ELIGIBLE
+APP0680,58,Male,Yes,Not Graduate,No,43333.0,109510.0,197981.0,300,Poor,3.0,0.382,Salaried,Rural,ELIGIBLE
+APP0681,49,Male,No,Not Graduate,No,49994.0,8000.0,247802.0,360,Good,1.0,0.95,Unemployed,Urban,NOT_ELIGIBLE
+APP0682,26,Female,Yes,Graduate,No,29870.0,18485.0,90433.0,180,Good,2.0,0.948,Salaried,Semiurban,NOT_ELIGIBLE
+APP0683,59,Male,No,Graduate,Yes,66547.0,8000.0,253465.0,360,Good,0.0,0.805,Salaried,Semiurban,ELIGIBLE
+APP0684,59,Female,Yes,Graduate,Yes,23329.0,25252.0,215594.0,240,Good,1.0,0.95,Self-Employed,Urban,ELIGIBLE
+APP0685,27,Male,No,Graduate,No,44441.0,0.0,407889.0,360,Good,2.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0686,53,Male,No,Not Graduate,No,79189.0,15000.0,331607.0,360,Good,1.0,0.874,Contract,Rural,NOT_ELIGIBLE
+APP0687,37,Male,No,Graduate,No,63612.0,8000.0,209863.0,360,Good,2.0,0.675,Unemployed,Semiurban,ELIGIBLE
+APP0688,44,Male,Yes,Graduate,Yes,73017.0,14732.0,371657.0,300,Poor,1.0,0.95,Contract,Urban,NOT_ELIGIBLE
+APP0689,38,Male,Yes,Graduate,No,53309.0,41765.0,396215.0,360,Good,2.0,0.95,Contract,Rural,ELIGIBLE
+APP0690,52,Male,No,Not Graduate,No,96429.0,0.0,193618.0,480,Good,1.0,0.365,Salaried,Semiurban,ELIGIBLE
+APP0691,60,Male,Yes,Not Graduate,No,85729.0,21829.0,220995.0,360,Good,1.0,0.537,Salaried,Urban,ELIGIBLE
+APP0692,52,Male,Yes,Graduate,No,68134.0,17927.0,96218.0,360,Good,1.0,0.182,Contract,Semiurban,ELIGIBLE
+APP0693,58,Male,Yes,Graduate,No,85846.0,106525.0,165881.0,360,Good,2.0,0.148,Self-Employed,Semiurban,ELIGIBLE
+APP0694,58,Male,No,Graduate,Yes,78849.0,0.0,196057.0,300,Good,4.0,0.701,Contract,Urban,NOT_ELIGIBLE
+APP0695,24,Male,No,Graduate,No,44540.0,0.0,290147.0,360,Good,1.0,0.95,Salaried,Rural,ELIGIBLE
+APP0696,31,Male,No,Graduate,No,28854.0,8000.0,177862.0,300,Good,0.0,0.95,Salaried,Urban,ELIGIBLE
+APP0697,49,Male,No,Graduate,No,67296.0,0.0,218838.0,240,Poor,2.0,0.95,Salaried,Urban,NOT_ELIGIBLE
+APP0698,44,Female,Yes,Graduate,No,71483.0,39153.0,,360,Poor,0.0,0.409,Self-Employed,Urban,ELIGIBLE
+APP0699,23,Female,Yes,Graduate,No,92829.0,14156.0,303969.0,360,Good,1.0,0.69,Contract,Rural,ELIGIBLE
+APP0700,24,Male,Yes,Graduate,No,35089.0,30699.0,343481.0,480,,0.0,0.95,Unemployed,Semiurban,ELIGIBLE

@@ -1,0 +1,63 @@
+{
+  "random_state": 42,
+  "rows": 700,
+  "train_rows": 560,
+  "test_rows": 140,
+  "selected_model": "Naive Bayes",
+  "selection_rule": "highest test-set F1-Score, then Accuracy",
+  "metrics": [
+    {
+      "Model": "Naive Bayes",
+      "Accuracy": 0.7928571428571428,
+      "Precision": 0.8148148148148148,
+      "Recall": 0.825,
+      "F1-Score": 0.8198757763975155
+    },
+    {
+      "Model": "KNN (k=3)",
+      "Accuracy": 0.7428571428571429,
+      "Precision": 0.7244897959183674,
+      "Recall": 0.8875,
+      "F1-Score": 0.797752808988764
+    },
+    {
+      "Model": "KNN (k=5)",
+      "Accuracy": 0.7,
+      "Precision": 0.6938775510204082,
+      "Recall": 0.85,
+      "F1-Score": 0.7640449438202247
+    },
+    {
+      "Model": "KNN (k=7)",
+      "Accuracy": 0.6785714285714286,
+      "Precision": 0.6666666666666666,
+      "Recall": 0.875,
+      "F1-Score": 0.7567567567567568
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.75,
+      "Precision": 0.8169014084507042,
+      "Recall": 0.725,
+      "F1-Score": 0.7682119205298014
+    }
+  ],
+  "missing_values_before_imputation": {
+    "Applicant_ID": 0,
+    "Age": 0,
+    "Gender": 9,
+    "Married": 0,
+    "Education": 7,
+    "Self_Employed": 11,
+    "Applicant_Income": 8,
+    "Coapplicant_Income": 0,
+    "Loan_Amount": 11,
+    "Loan_Term": 0,
+    "Credit_History": 9,
+    "Existing_Loans": 13,
+    "Debt_to_Income_Ratio": 6,
+    "Employment_Status": 13,
+    "Property_Area": 0,
+    "Loan_Eligibility": 0
+  }
+}

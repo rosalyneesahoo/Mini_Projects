@@ -1,0 +1,153 @@
+First five rows:
+Applicant_ID  Age Gender Married    Education Self_Employed  Applicant_Income  Coapplicant_Income  Loan_Amount  Loan_Term Credit_History  Existing_Loans  Debt_to_Income_Ratio Employment_Status Property_Area Loan_Eligibility
+     APP0001   24   Male      No     Graduate            No           54765.0              8000.0     289176.0        360           Poor             0.0                 0.950          Salaried         Urban     NOT_ELIGIBLE
+     APP0002   51   Male     Yes     Graduate            No           24027.0             29665.0     232568.0        300           Good             0.0                 0.950          Salaried     Semiurban         ELIGIBLE
+     APP0003   47   Male     Yes Not Graduate            No           30057.0             21005.0     277667.0        360           Good             3.0                 0.950          Salaried         Urban     NOT_ELIGIBLE
+     APP0004   38   Male     Yes Not Graduate            No           90957.0              6458.0     274707.0        240           Good             1.0                 0.947        Unemployed         Urban         ELIGIBLE
+     APP0005   38   Male     Yes     Graduate            No           43968.0             28075.0     304510.0        360           Poor             1.0                 0.950          Salaried         Urban         ELIGIBLE
+
+Dataset shape: (700, 16)
+
+Data types:
+ Applicant_ID                str
+Age                       int64
+Gender                      str
+Married                     str
+Education                   str
+Self_Employed               str
+Applicant_Income        float64
+Coapplicant_Income      float64
+Loan_Amount             float64
+Loan_Term                 int64
+Credit_History              str
+Existing_Loans          float64
+Debt_to_Income_Ratio    float64
+Employment_Status           str
+Property_Area               str
+Loan_Eligibility            str
+dtype: object
+
+Missing values:
+ Applicant_ID             0
+Age                      0
+Gender                   9
+Married                  0
+Education                7
+Self_Employed           11
+Applicant_Income         8
+Coapplicant_Income       0
+Loan_Amount             11
+Loan_Term                0
+Credit_History           9
+Existing_Loans          13
+Debt_to_Income_Ratio     6
+Employment_Status       13
+Property_Area            0
+Loan_Eligibility         0
+dtype: int64
+
+Duplicate records removed: 0
+
+Descriptive statistics:
+                       count unique        top freq           mean            std      min       25%       50%       75%        max
+Applicant_ID            700    700    APP0001    1            NaN            NaN      NaN       NaN       NaN       NaN        NaN
+Age                   700.0    NaN        NaN  NaN      40.722857      11.526187     21.0      31.0      41.0      51.0       60.0
+Gender                  691      2       Male  470            NaN            NaN      NaN       NaN       NaN       NaN        NaN
+Married                 700      2        Yes  430            NaN            NaN      NaN       NaN       NaN       NaN        NaN
+Education               693      2   Graduate  502            NaN            NaN      NaN       NaN       NaN       NaN        NaN
+Self_Employed           689      2         No  600            NaN            NaN      NaN       NaN       NaN       NaN        NaN
+Applicant_Income      692.0    NaN        NaN  NaN   62399.758671   31468.861462  14696.0  40265.75   56234.5  76876.75   242213.0
+Coapplicant_Income    700.0    NaN        NaN  NaN   17948.808571   18702.870157      0.0   6907.25   15000.0  25209.25   130000.0
+Loan_Amount           689.0    NaN        NaN  NaN  311132.008708  152232.314193  70624.0  198907.0  279789.0  391753.0  1000000.0
+Loan_Term             700.0    NaN        NaN  NaN     319.285714      85.357473    120.0     240.0     360.0     360.0      480.0
+Credit_History          691      2       Good  548            NaN            NaN      NaN       NaN       NaN       NaN        NaN
+Existing_Loans        687.0    NaN        NaN  NaN       1.135371       1.056985      0.0       0.0       1.0       2.0        5.0
+Debt_to_Income_Ratio  694.0    NaN        NaN  NaN       0.800886       0.223912    0.142   0.68325      0.95      0.95       0.95
+Employment_Status       687      4   Salaried  361            NaN            NaN      NaN       NaN       NaN       NaN        NaN
+Property_Area           700      3  Semiurban  275            NaN            NaN      NaN       NaN       NaN       NaN        NaN
+Loan_Eligibility        700      2   ELIGIBLE  399            NaN            NaN      NaN       NaN       NaN       NaN        NaN
+
+Eligibility distribution:
+ Loan_Eligibility
+ELIGIBLE        399
+NOT_ELIGIBLE    301
+Name: count, dtype: int64
+
+Naive Bayes
+              precision    recall  f1-score   support
+
+    ELIGIBLE       0.81      0.82      0.82        80
+NOT_ELIGIBLE       0.76      0.75      0.76        60
+
+    accuracy                           0.79       140
+   macro avg       0.79      0.79      0.79       140
+weighted avg       0.79      0.79      0.79       140
+
+Confusion matrix (rows=actual, columns=predicted):
+              ELIGIBLE  NOT_ELIGIBLE
+ELIGIBLE            66            14
+NOT_ELIGIBLE        15            45
+
+KNN (k=3)
+              precision    recall  f1-score   support
+
+    ELIGIBLE       0.72      0.89      0.80        80
+NOT_ELIGIBLE       0.79      0.55      0.65        60
+
+    accuracy                           0.74       140
+   macro avg       0.76      0.72      0.72       140
+weighted avg       0.75      0.74      0.73       140
+
+Confusion matrix (rows=actual, columns=predicted):
+              ELIGIBLE  NOT_ELIGIBLE
+ELIGIBLE            71             9
+NOT_ELIGIBLE        27            33
+
+KNN (k=5)
+              precision    recall  f1-score   support
+
+    ELIGIBLE       0.69      0.85      0.76        80
+NOT_ELIGIBLE       0.71      0.50      0.59        60
+
+    accuracy                           0.70       140
+   macro avg       0.70      0.68      0.68       140
+weighted avg       0.70      0.70      0.69       140
+
+Confusion matrix (rows=actual, columns=predicted):
+              ELIGIBLE  NOT_ELIGIBLE
+ELIGIBLE            68            12
+NOT_ELIGIBLE        30            30
+
+KNN (k=7)
+              precision    recall  f1-score   support
+
+    ELIGIBLE       0.67      0.88      0.76        80
+NOT_ELIGIBLE       0.71      0.42      0.53        60
+
+    accuracy                           0.68       140
+   macro avg       0.69      0.65      0.64       140
+weighted avg       0.69      0.68      0.66       140
+
+Confusion matrix (rows=actual, columns=predicted):
+              ELIGIBLE  NOT_ELIGIBLE
+ELIGIBLE            70            10
+NOT_ELIGIBLE        35            25
+
+Decision Tree
+              precision    recall  f1-score   support
+
+    ELIGIBLE       0.82      0.72      0.77        80
+NOT_ELIGIBLE       0.68      0.78      0.73        60
+
+    accuracy                           0.75       140
+   macro avg       0.75      0.75      0.75       140
+weighted avg       0.76      0.75      0.75       140
+
+Confusion matrix (rows=actual, columns=predicted):
+              ELIGIBLE  NOT_ELIGIBLE
+ELIGIBLE            58            22
+NOT_ELIGIBLE        13            47
+
+Selected final model: Naive Bayes
+Saved model to: /home/ubuntu/personal-loan-predictor/models/final_model.pkl
+Saved outputs to: /home/ubuntu/personal-loan-predictor/outputs

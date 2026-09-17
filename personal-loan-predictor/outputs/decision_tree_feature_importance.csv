@@ -1,0 +1,25 @@
+Feature,Importance
+numeric__Debt_to_Income_Ratio,0.30861219901881665
+categorical__Credit_History_Poor,0.27241529998892045
+categorical__Education_Not Graduate,0.14302603746525627
+numeric__Existing_Loans,0.1357795644163129
+numeric__Loan_Amount,0.03125112037260179
+numeric__Applicant_Income,0.028892811079482997
+numeric__Age,0.02620341134118471
+categorical__Self_Employed_No,0.020400579763898113
+categorical__Property_Area_Semiurban,0.016727553482170955
+numeric__Coapplicant_Income,0.016691423071355193
+categorical__Gender_Female,0.0
+numeric__Loan_Term,0.0
+categorical__Education_Graduate,0.0
+categorical__Married_Yes,0.0
+categorical__Gender_Male,0.0
+categorical__Married_No,0.0
+categorical__Credit_History_Good,0.0
+categorical__Self_Employed_Yes,0.0
+categorical__Employment_Status_Salaried,0.0
+categorical__Employment_Status_Contract,0.0
+categorical__Employment_Status_Self-Employed,0.0
+categorical__Employment_Status_Unemployed,0.0
+categorical__Property_Area_Rural,0.0
+categorical__Property_Area_Urban,0.0

@@ -1,0 +1,15 @@
+----------------------------------------
+PERSONAL LOAN ELIGIBILITY
+----------------------------------------
+Final model: Naive Bayes
+Prediction: ELIGIBLE
+Eligibility Probability: 99.99%
+Not Eligible Probability: 0.01%
+
+Key observations:
+- Good credit history is one characteristic considered by the model.
+- The employment category is treated as a stable employment indicator.
+- The debt-to-income ratio is moderate.
+- The applicant has no or few existing loans.
+
+These probabilities and observations are based on the sample training data. They are not a bank decision or a guaranteed approval.
